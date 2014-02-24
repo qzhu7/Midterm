@@ -137,23 +137,23 @@ body {
 	 
 }
 
-#write {
+#first {
 	background-color:#E0FFC2;
 	
  
 }
 
-#art {
+#second {
 	background-color:#FFC;
 }
 
-#perform {
+#third{
 	background-color:#E8E8FF;
 
 
 }
 
-#media {
+#fourth{
 	background-color:#ADEBFF;
 
 
@@ -164,6 +164,5 @@ body {
 	float:left;
 	padding: 0 2%;
 }
-
 
 
