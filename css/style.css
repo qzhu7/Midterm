@@ -59,7 +59,8 @@ img,video{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
 h1 {
 	text-align:center;
 	color:#60F;
-	font-size:4em;
+	font-size:3em;
+	padding-top:10px;
 	}
 
 h2 {
@@ -180,33 +181,36 @@ body {
 }
 
 .session{
-	width: 80%
+	width: 1000%;
 	padding:20%;
 	margin:5px auto;
-	border: 1px groove orange; 
 	padding:2px 8px;   
 	
 	 
 }
 
-#first {
-	background-color:#E0FFC2;
+.ant {
+	background-color:#CCFFCC;
+	border: 1px solid green; 
 	
  
 }
 
-#second {
-	background-color:#FFC;
+.bee {
+	background-color:#E0FFFF;
+	border: 1px solid green; 
 }
 
-#third{
-	background-color:#E8E8FF;
+.croc{
+	background-color:#D6FFEB;
+	border: 1px solid green; 
 
 
 }
 
-#fourth{
-	background-color:#ADEBFF;
+.dog{
+	background-color:#CCFFFF;
+	border: 1px solid green; 
 
 
 }
