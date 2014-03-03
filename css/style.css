@@ -49,7 +49,7 @@ table {
 	border-spacing: 0;
 }
 
-
+/*
  CSS for <iframe> embedded element
    ===================================== */
 .videoWrapper {
@@ -64,10 +64,10 @@ table {
 }
 .videoWrapper iframe {
     position:absolute;
-    top: 32%;
-    left: 1%;
-    width: 50%;
-    height: 30%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
 	
 }
 
@@ -78,7 +78,7 @@ img,video {
 h1 {
 	text-align:center;
 	color:#60F;
-	font-size:3em;
+	font-size:2em;
 	padding-top:10px;
 	}
 
@@ -199,11 +199,12 @@ body {
 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-.session{
+.session, .video{
 	width: 100%;
 	padding:20%;
 	margin:5px auto;
-	padding:2px 8px;   
+	padding:2px 8px; 
+	postion:relative;  
 	
 	 
 }
