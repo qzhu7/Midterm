@@ -199,7 +199,7 @@ body {
 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
 }
 
-.session, .video, .speak{
+.session, .video, .speak, .block{
 	width: 100%;
 	padding:20%;
 	margin:5px auto;
@@ -217,7 +217,7 @@ body {
 }
 
 .bee {
-	background-color:#52A3CC;
+	background-color:#A8D1E5;
 	border: 1px solid green; 
 }
 
@@ -247,3 +247,4 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	}
+
