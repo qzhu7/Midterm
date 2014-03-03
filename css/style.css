@@ -50,11 +50,30 @@ table {
 }
 
 
+ CSS for <iframe> embedded element
+   ===================================== */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    /* if your video is 4:3 ratio then use the padding-bottom below:*/
+    /*padding-bottom: 75%;*/ /* 4:3 */
+	
+  
+    padding-top: 25px; /* may need to adjust depending on the size of the player controls of the service you use */
+    height: 0;
+}
+.videoWrapper iframe {
+    position:absolute;
+    top: 32%;
+    left: 1%;
+    width: 50%;
+    height: 30%;
+	
+}
 
-
-
-
-img,video{width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;}
+img,video {
+	width: auto; max-width: 100%; height: auto; margin: 0 auto 1em;
+	}
 
 h1 {
 	text-align:center;
@@ -190,7 +209,7 @@ body {
 }
 
 .ant {
-	background-color:#CCFFCC;
+	background-color:#99CCFF;
 	border: 1px solid green; 
 	
  
@@ -202,7 +221,7 @@ body {
 }
 
 .croc{
-	background-color:#D6FFEB;
+	background-color:#F0FFFF;
 	border: 1px solid green; 
 
 
