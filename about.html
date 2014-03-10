@@ -2,8 +2,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<title>About Page</title>\
+<title>About Page</title>
 </head>
 
 <!--ant=one,bee=two,croc=three,dog=four-->
@@ -13,16 +14,10 @@
 <h1> About </h1>
 </header>
 
-<nav>
-<ul>
-<li> <a href="index.html">home</a> </li>
-<li id="active"> <a href="about.html">about</a> </li>
-<li> <a href="schedule.html">Schedule</a> </li>
-<li> <a href="speaker.html">Speakers</a> </li>
-<li> <a href="videos.html">Videos</a> </li>
-<li> <a href="sessions.html">Sessions</a> </li>
-</ul>
-</nav>
+<div class="menu">
+<a href="#nav">Menu</a>
+</div>
+
 <section id="first"> 
 <div class="session ant">
 <h3>ABOUT THE CONFERENCE</h3>
@@ -96,8 +91,22 @@ Through Underpass Straight to West Street,
 Turn Right on Chambers Street</p>
 </div>
 </section>
+
+<a name="nav"></a>
+<nav id="nav">
+<ul>
+<li> <a href="index.html">home</a> </li>
+<li id="active"> <a href="about.html">about</a> </li>
+<li> <a href="schedule.html">Schedule</a> </li>
+<li> <a href="speaker.html">Speakers</a> </li>
+<li> <a href="videos.html">Videos</a> </li>
+<li> <a href="sessions.html">Sessions</a> </li>
+</ul>
+</nav>
+
 <footer>
-<P> (O_O) Copyright 2014, Designed by Qing Zhu {@_@} </P>
+<P> (O_O) Copyright 2014 
+<br>Designed by Qing Zhu {@_@} </P>
 </footer>
 </body>
 </html>

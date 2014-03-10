@@ -1,35 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/*CSS Reset*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
+
+
+
 body {
 	line-height: 1;
 }
@@ -106,7 +80,7 @@ body,p {
 
 body {
 	background-color:#FFFFEB;
-}
+	}
 
 h3 {
 	color:#069;
@@ -149,13 +123,6 @@ p.presenter {
 	
 }
 	
-
-nav {
-	margin: 20%;
-	display:inline;
-	text-align:center;
-	}
-
 #active a
 {
 display: inline;
@@ -175,45 +142,41 @@ a:hover {
 	color:#36C;
 }
 
+nav {
+	
+	display:inline;
+	text-align:left;
+	clear:both;
+    }
 
 ul {
   overflow: auto;
   list-style-type: none;
-  display:inline-block;
+  /*display:inline-block;
   margin: 0px auto;
-  text-align:center;
+  text-align:left;*/
 }
  
 li {
-  height: 25px;
-  float:inherit;
-  margin-right: 0px;
-  border-right: 1px solid #aaa;
-  padding: 0 20px;
-  display:inline-block;
-  margin: 0px auto;
-  text-align:center;
-}
- 
-li:last-child {
-  border-right: none;
+ display:inline;
+    line-height:1em;
 }
  
 li a {
-  text-decoration: none;
-  color:#000;
-  font: 25px/1 Helvetica, Verdana, sans-serif;
-  text-transform: uppercase;
-  
-  
-width:80%;
  
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
+  float:left;
+    /*padding: 0.9375em;*/ 
+    border-bottom: 1px solid #eee;
+	font: 25px/1 Helvetica, Verdana, sans-serif;
+	text-transform: uppercase;
+	display:block;
+    color:#fff;
+    text-decoration:none;
+     border-bottom: 1px solid #eee;
+     font-weight:900;
+	 padding: 0.625em;
+	 
+	 }
  
 li a:hover {
   color: #666;
@@ -224,12 +187,31 @@ li.active a {
   color: #0C0;
 }
 
+/* menu button */
+.menu a{
+  padding:0.5em 0.625em; /*10/16 */
+  background-color: #555;
+  border-radius:5px;
+  color: #fff;
+  text-decoration:none;
+}
+
+.menu a:hover{
+  color:#555;
+  background-color: #f90;
+}
+ 
+.menu{
+  margin-bottom:1em;
+}
+
+
 .session, .video, .speak, .block, .sch{
 	width: 100%;
 	padding:20%;
 	margin:5px auto;
 	padding:2px 8px; 
-	postion:relative;  
+	/*postion:relative;*/  
 	}
 
 .ant {
@@ -259,7 +241,7 @@ li.active a {
 }
 
 .set {
-	width: 50%
+	width: 50%;
 	float:left;
 	padding: 0 2%;
 }
