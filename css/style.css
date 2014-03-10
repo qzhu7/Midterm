@@ -1,28 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
-
-
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 /*
  CSS for <iframe> embedded element
    ===================================== */
@@ -58,7 +36,7 @@ img,video {
 h1 {
 	text-align:center;
 	color:#60F;
-	font-size:2em;
+	font-size:3em;
 	padding-top:10px;
 	}
 
@@ -110,7 +88,7 @@ header {
 	height:150px;
 	border: 2px dotted #FFFFCC;
 }
-	
+
 footer {
 	color:#C60;
 	
@@ -131,15 +109,20 @@ text-decoration: none;
 }
 
 a:link {
-	color:#639;
+	color:#F90;
 }
 
 a:visited {
-	color:#030;
+	color:#03C;
 }
 
 a:hover {
 	color:#36C;
+}
+
+a {
+	text-decoration:none;
+	
 }
 
 nav {
@@ -152,6 +135,7 @@ nav {
 ul {
   overflow: auto;
   list-style-type: none;
+  text-decoration:none;
   /*display:inline-block;
   margin: 0px auto;
   text-align:left;*/
@@ -160,6 +144,7 @@ ul {
 li {
  display:inline;
     line-height:1em;
+	text-decoration:none;
 }
  
 li a {
