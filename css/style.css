@@ -34,17 +34,17 @@ img,video {
 
 /* Flexible iFrame */
 
-.Flexible-container {
+.mapWrapper {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
+    padding-bottom:95%; 
+    /* 
+    do math with the height of your iframe divided by the width, then converted to percent
+    in this example the height is 400 and the width is 600
+    400 / 600 = .66666667 
+    which is 66.6666667% */
     height: 0;
-    overflow: hidden;
 }
-
-.Flexible-container iframe,   
-.Flexible-container object,  
-.Flexible-container embed {
+.mapWrapper iframe {
     position: absolute;
     top: 0;
     left: 0;
