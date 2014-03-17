@@ -101,29 +101,7 @@ p.presenter {
 	
 }
 	
-#active a
-{
-display: inline;
-color:#F00;
-text-decoration: none;
-}
 
-a:link {
-	color:#F90;
-}
-
-a:visited {
-	color:#03C;
-}
-
-a:hover {
-	color:#36C;
-}
-
-a {
-	text-decoration:none;
-	
-}
 
 nav {
 	
@@ -132,8 +110,8 @@ nav {
 	clear:both;
     }
 
-ul {
-  overflow: auto;
+#nav ul {
+  overflow:hidden;
   list-style-type: none;
   text-decoration:none;
   /*display:inline-block;
@@ -141,13 +119,13 @@ ul {
   text-align:left;*/
 }
  
-li {
- display:inline;
+#nav li {
+ display:block;
     line-height:1em;
 	text-decoration:none;
 }
  
-li a {
+ li a {
  
   float:left;
     /*padding: 0.9375em;*/ 
@@ -155,7 +133,7 @@ li a {
 	font: 25px/1 Helvetica, Verdana, sans-serif;
 	text-transform: uppercase;
 	display:block;
-    color:#fff;
+    color:#039;
     text-decoration:none;
      border-bottom: 1px solid #eee;
      font-weight:900;
@@ -163,14 +141,32 @@ li a {
 	 
 	 }
  
-li a:hover {
-  color: #666;
+#nav li a:hover {
+  color:#F93;
 }
  
-li.active a {
-  font-weight: bold;
-  color: #0C0;
+#active a
+{
+display: inline;
+color:#F00;
+text-decoration: none;
 }
+
+a:link {
+	color:#F66;
+}
+
+a:visited {
+	color:#00C;
+}
+
+
+
+a {
+	text-decoration:none;
+	
+} 
+
 
 /* menu button */
 .menu a{
