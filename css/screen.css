@@ -1,6 +1,5 @@
-@charset "utf-8";
-/* CSS Document */
-
+@charset "UTF-8";
+                                                                                                                                               /* 
 This is the main stylesheet file. To keep things easier to read we don't actually write any css here. Instead we import a bunch of other partial files.
 In Sass a partial has the following properties:
 
@@ -10,11 +9,13 @@ In Sass a partial has the following properties:
 
 Also, FYI, this is an example of a comment that won't get erased or compressed when Sass creates the CSS file. Putting the ! after the opening /* tells Sass not to touch it.
 */
+/* CSS Document */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 18, ../scss/_reset.scss */
+/*CSS Reset*/
+/* line 21, ../scss/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -37,61 +38,106 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 28, ../scss/_reset.scss */
+/* line 31, ../scss/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 31, ../scss/_reset.scss */
+/* line 35, ../scss/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 34, ../scss/_reset.scss */
+/* line 38, ../scss/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 37, ../scss/_reset.scss */
+/* line 41, ../scss/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 41, ../scss/_reset.scss */
+/* line 45, ../scss/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 45, ../scss/_reset.scss */
+/* line 49, ../scss/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* apply a natural box layout model to all elements */
-/* line 5, ../scss/_global.scss */
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+/*
+ CSS for <iframe> embedded element
+   ===================================== */
+/* line 6, ../scss/_global.scss */
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  /* if your video is 4:3 ratio then use the padding-bottom below:*/
+  /*padding-bottom: 75%;*/
+  /* 4:3 */
+  padding-top: 25px;
+  /* may need to adjust depending on the size of the player controls of the service you use */
+  height: 0;
 }
 
-/* This is not the only thing you should do for responsive images, but it is a start. Remember that this style will not make your image or video grow any bigger than the original so you have to put in the largest version you will need.
-That can be a performance issue since small screens will download the same image as large ones.
-This article by Luke Wroblewski goes into more detail about that: http://www.lukew.com/ff/entry.asp?1851
-*/
-/* line 13, ../scss/_global.scss */
+/* line 16, ../scss/_global.scss */
+.videoWrapper iframe {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 25, ../scss/_global.scss */
 img, video {
   width: auto;
   max-width: 100%;
   height: auto;
+  margin: 0 auto 1em;
 }
 
+/* apply a natural box layout model to all elements */
+/* line 30, ../scss/_global.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Flexible iFrame */
+/* line 36, ../scss/_global.scss */
+.mapWrapper {
+  position: relative;
+  padding-bottom: 95%;
+  /* 
+  do math with the height of your iframe divided by the width, then converted to percent
+  in this example the height is 400 and the width is 600
+  400 / 600 = .66666667 
+  which is 66.6666667% */
+  height: 0;
+}
+
+/* line 46, ../scss/_global.scss */
+.mapWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* end of frame */
 /* header, body, and p */
-/* line 21, ../scss/_global.scss */
+/* line 59, ../scss/_global.scss */
 h1 {
   text-align: center;
   color: #60F;
@@ -99,14 +145,14 @@ h1 {
   padding-top: 10px;
 }
 
-/* line 28, ../scss/_global.scss */
+/* line 66, ../scss/_global.scss */
 h2 {
   color: #60F;
   text-align: center;
   font-size: 2.5em;
 }
 
-/* line 35, ../scss/_global.scss */
+/* line 73, ../scss/_global.scss */
 body, p {
   text-align: left;
   font-size: 100%;
@@ -114,12 +160,12 @@ body, p {
   font-family: sans-serif;
 }
 
-/* line 42, ../scss/_global.scss */
+/* line 80, ../scss/_global.scss */
 body {
   background-color: #FFFFEB;
 }
 
-/* line 46, ../scss/_global.scss */
+/* line 84, ../scss/_global.scss */
 h3 {
   color: #069;
   font-family: Verdana, Geneva, sans-serif;
@@ -128,7 +174,7 @@ h3 {
   line-height: 2.0;
 }
 
-/* line 54, ../scss/_global.scss */
+/* line 92, ../scss/_global.scss */
 h4 {
   color: #C60;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -136,7 +182,7 @@ h4 {
   line-height: 1.5;
 }
 
-/* line 61, ../scss/_global.scss */
+/* line 99, ../scss/_global.scss */
 h5 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
@@ -144,24 +190,40 @@ h5 {
   color: #006;
 }
 
-/* line 69, ../scss/_global.scss */
+/* line 107, ../scss/_global.scss */
 header {
   height: 150px;
   border: 2px dotted #FFFFCC;
 }
 
-/* line 74, ../scss/_global.scss */
+/* line 112, ../scss/_global.scss */
 footer {
   color: #C60;
 }
 
-/* line 78, ../scss/_global.scss */
+/* line 116, ../scss/_global.scss */
 p.presenter {
   font-style: italic;
   color: #960;
 }
 
 /* end of body */
+/* picture */
+/* line 123, ../scss/_global.scss */
+.set {
+  width: 50%;
+  float: left;
+  padding: 0 2%;
+}
+
+/* line 129, ../scss/_global.scss */
+.pic {
+  float: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* nav and links */
 /* line 2, ../scss/_navigation.scss */
 #nav {
@@ -227,7 +289,7 @@ a {
 
 /* end of nav and links */
 /* menu button */
-/* line 65, ../scss/_navigation.scss */
+/* line 66, ../scss/_navigation.scss */
 .menu a {
   padding: 0.5em 0.625em;
   /*10/16 */
@@ -237,54 +299,128 @@ a {
   text-decoration: none;
 }
 
-/* line 73, ../scss/_navigation.scss */
+/* line 74, ../scss/_navigation.scss */
 .menu a:hover {
   color: #555;
   background-color: #f90;
 }
 
-/* line 78, ../scss/_navigation.scss */
+/* line 79, ../scss/_navigation.scss */
 .menu {
   margin-bottom: 1em;
 }
 
 /* end of menu */
-@media only screen and (min-width: 20.0625em) {
-  /* line 3, ../scss/pages/_index.scss */
-  .features {
-    width: 98%;
-  }
-}
-@media only screen and (min-width: 30.0625em) {
-  /* line 3, ../scss/pages/_index.scss */
-  .features {
-    width: 96%;
-  }
-}
-@media only screen and (min-width: 45em) {
-  /* line 3, ../scss/pages/_index.scss */
-  .features {
-    width: 94%;
-  }
+/* 
+==========================
+Index Page (homepage)
+========================== 
+*/
+/* Default Styling */
+/* line 10, ../scss/pages/_index.scss */
+.ant {
+  background-color: #99CCFF;
+  border: 1px solid green;
 }
 
-/* line 21, ../scss/pages/_index.scss */
-.tracks {
-  clear: both;
-  margin: 0 0;
-  overflow: hidden;
+/* line 17, ../scss/pages/_index.scss */
+.bee {
+  background-color: #A8D1E5;
+  border: 1px solid green;
 }
-/* line 24, ../scss/pages/_index.scss */
-.tracks .track {
-  width: 25%;
-  padding: 0 1%;
+
+/* line 22, ../scss/pages/_index.scss */
+.croc {
+  background-color: #F0FFFF;
+  border: 1px solid green;
+}
+
+/* line 29, ../scss/pages/_index.scss */
+.dog {
+  background-color: #CCFFFF;
+  border: 1px solid green;
+}
+
+/* end of main content */
+/* line 35, ../scss/pages/_index.scss */
+.session, .video, .speak, .block, .sch {
+  width: 100%;
+  padding: 20%;
+  margin: 5px auto;
+  padding: 2px 8px;
+  /*postion:relative;*/
+}
+
+/* picture */
+/* line 44, ../scss/pages/_index.scss */
+.set {
+  width: 50%;
   float: left;
-}
-/* line 17, ../scss/_mixins.scss */
-.tracks .track:last-of-type {
-  float: right;
+  padding: 0 2%;
 }
 
+/* line 50, ../scss/pages/_index.scss */
+.pic, .banner {
+  float: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Media Queries Styling and layout*/
+@media only screen and (min-width: 45em) {
+  /* line 61, ../scss/pages/_index.scss */
+  #first {
+    width: 25%;
+    padding: 0 1%;
+    float: left;
+    padding-top: 70px;
+  }
+  /* line 17, ../scss/_mixins.scss */
+  #first:last-of-type {
+    float: right;
+  }
+
+  /* line 66, ../scss/pages/_index.scss */
+  #second {
+    width: 25%;
+    padding: 0 1%;
+    float: left;
+  }
+  /* line 17, ../scss/_mixins.scss */
+  #second:last-of-type {
+    float: right;
+  }
+
+  /* line 71, ../scss/pages/_index.scss */
+  #third {
+    width: 25%;
+    padding: 0 1%;
+    float: left;
+  }
+  /* line 17, ../scss/_mixins.scss */
+  #third:last-of-type {
+    float: right;
+  }
+
+  /* line 75, ../scss/pages/_index.scss */
+  #fourth {
+    width: 25%;
+    padding: 0 1%;
+    float: left;
+  }
+  /* line 17, ../scss/_mixins.scss */
+  #fourth:last-of-type {
+    float: right;
+  }
+
+  /* line 79, ../scss/pages/_index.scss */
+  #banner {
+    max-width: 60%;
+    max-height: 20%;
+    float: right;
+  }
+}
 /*main content */
 /* line 2, ../scss/pages/_schedule.scss */
 .ant {
@@ -460,6 +596,3 @@ a {
 }
 
 /* end of main content */
-
-
-

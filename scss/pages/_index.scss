@@ -1,27 +1,88 @@
 
-//This is just an example of using breakpoints. Please change or remove
-.features{
-	@include breakpoint(x-small){
-		width:98%;
+/* 
+==========================
+Index Page (homepage)
+========================== 
+*/
+
+/* Default Styling */
+	
+.ant {
+	background-color:#99CCFF;
+	border: 1px solid green; 
+
+ 
+}
+
+.bee {
+	background-color:#A8D1E5;
+	border: 1px solid green; 
+}
+
+.croc {
+	background-color:#F0FFFF;
+	border: 1px solid green; 
+
+
+}
+
+.dog {
+	background-color:#CCFFFF;
+	border: 1px solid green; 
+	}
+/* end of main content */
+
+.session, .video, .speak, .block, .sch {
+	width: 100%;
+	padding:20%;
+	margin:5px auto;
+	padding:2px 8px; 
+	/*postion:relative;*/  
 	}
 
-	@include breakpoint(small){
-		width: 96%;
-	}
+	/* picture */
+.set {
+	width: 50%;
+	float:left;
+	padding: 0 2%;
+}
 
-	@include breakpoint(medium){
-		width:94%;
-	}
+.pic, .banner {
+	float:inherit;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 
-//this is also just an example of how to add columns
-//it makes each track 1 of four columns (25%) wide.
+	 /*Media Queries Styling and layout*/
+	 @include breakpoint(medium){
+	  
+	  #first {
+			@include col(1,4);
+			padding-top:70px;
+		}
+	
+	#second {
+		@include col(1,4);
+		
+	}
 
-.tracks{
-	@include set-row;
+	#third {
+         @include col(1,4);
+	}
 
-	.track{
+	#fourth {
 		@include col(1,4);
 	}
-}
+     
+     #banner {
+     	max-width:60%;
+     	max-height:20%;
+     	float:right;
+     }  
+
+ }
+
+
+	
