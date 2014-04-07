@@ -1,5 +1,4 @@
-@charset "utf-8";
-/* CSS Document */
+
 
 /*
  CSS for <iframe> embedded element
@@ -52,6 +51,7 @@ img,video {
     height: 100%;
 }
 /* end of frame */
+
 
 
 
@@ -119,128 +119,6 @@ p.presenter {
 	}
 /* end of body */ 
 
-.session, .video, .speak, .block, .sch {
-	width: 100%;
-	padding:20%;
-	margin:5px auto;
-	padding:2px 8px; 
-	/*postion:relative;*/  
-	}
-
-/*main content */
-.ant {
-	background-color:#99CCFF;
-	border: 1px solid green; 
-	
- 
-}
-
-.bee {
-	background-color:#A8D1E5;
-	border: 1px solid green; 
-}
-
-.croc {
-	background-color:#F0FFFF;
-	border: 1px solid green; 
-
-
-}
-
-.dog {
-	background-color:#CCFFFF;
-	border: 1px solid green; 
-	}
-/* end of main content */
-	
-
-
-
-/* nav and links */
-#nav {
-	
-	display:inline;
-	text-align:left;
-	clear:both;
-    }
-
-#nav ul {
-  overflow:hidden;
-  list-style-type: none;
-  text-decoration:none;
-  
-}
- 
-#nav li {
- display:block;
-    line-height:1em;
-	text-decoration:none;
-}
- 
- li a {
- 
-  float:left;
-   border-bottom: 1px solid #eee;
-	font: 25px/1 Helvetica, Verdana, sans-serif;
-	text-transform: uppercase;
-	display:block;
-    color:#039;
-    text-decoration:none;
-     border-bottom: 1px solid #eee;
-     font-weight:900;
-	 padding: 0.625em;
-	 
-	 }
- 
-#nav li a:hover {
-  color:#F93;
-}
- 
-#active a
-{
-display: inline;
-color:#F00;
-text-decoration: none;
-}
-
-a:link {
-	color:#66ffb3;
-}
-
-a:visited {
-	color:#00C;
-}
-
-a {
-	text-decoration:none;
-	
-} 
-
-/* end of nav and links */ 
-
-
-
-/* menu button */
-.menu a{
-  padding:0.5em 0.625em; /*10/16 */
-  background-color: #555;
-  border-radius:5px;
-  color: #fff;
-  text-decoration:none;
-}
-
-.menu a:hover{
-  color:#555;
-  background-color: #f90;
-}
- 
-.menu{
-  margin-bottom:1em;
-}
-
-/* end of menu */
-
-
 /* picture */
 .set {
 	width: 50%;
@@ -254,7 +132,3 @@ a {
 	margin-left:auto;
 	margin-right:auto;
 }
-/* end of picture */	
-
-
-
