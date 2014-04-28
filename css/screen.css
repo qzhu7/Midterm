@@ -15,7 +15,7 @@ Also, FYI, this is an example of a comment that won't get erased or compressed w
    License: none (public domain)
 */
 /*CSS Reset*/
-/* line 21, ../scss/_reset.scss */
+/* line 21, /Users/qing.zhu/Documents/Midterm/scss/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -38,35 +38,35 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 31, ../scss/_reset.scss */
+/* line 31, /Users/qing.zhu/Documents/Midterm/scss/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 35, ../scss/_reset.scss */
+/* line 35, /Users/qing.zhu/Documents/Midterm/scss/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 38, ../scss/_reset.scss */
+/* line 38, /Users/qing.zhu/Documents/Midterm/scss/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 41, ../scss/_reset.scss */
+/* line 41, /Users/qing.zhu/Documents/Midterm/scss/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 45, ../scss/_reset.scss */
+/* line 45, /Users/qing.zhu/Documents/Midterm/scss/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 49, ../scss/_reset.scss */
+/* line 49, /Users/qing.zhu/Documents/Midterm/scss/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -75,7 +75,7 @@ table {
 /*
  CSS for <iframe> embedded element
    ===================================== */
-/* line 6, ../scss/_global.scss */
+/* line 6, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -88,7 +88,7 @@ table {
   height: 0;
 }
 
-/* line 16, ../scss/_global.scss */
+/* line 16, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 .videoWrapper iframe {
   position: absolute;
   top: 0%;
@@ -97,7 +97,7 @@ table {
   height: 100%;
 }
 
-/* line 25, ../scss/_global.scss */
+/* line 25, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 img, video {
   width: auto;
   max-width: 100%;
@@ -106,7 +106,7 @@ img, video {
 }
 
 /* apply a natural box layout model to all elements */
-/* line 30, ../scss/_global.scss */
+/* line 30, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -114,7 +114,7 @@ img, video {
 }
 
 /* Flexible iFrame */
-/* line 36, ../scss/_global.scss */
+/* line 36, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 .mapWrapper {
   position: relative;
   padding-bottom: 95%;
@@ -126,7 +126,7 @@ img, video {
   height: 0;
 }
 
-/* line 46, ../scss/_global.scss */
+/* line 46, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 .mapWrapper iframe {
   position: absolute;
   top: 0;
@@ -136,8 +136,114 @@ img, video {
 }
 
 /* end of frame */
+@media only screen and (min-width: 30.0625em) {
+  /* line 57, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  body {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+
+  /* line 58, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h1 {
+    font-size: 2em;
+    line-height: 1.1;
+  }
+
+  /* line 59, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h2 {
+    font-size: 1.8em;
+    line-height: 1.1;
+  }
+
+  /* line 60, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h3 {
+    font-size: 1.6em;
+    line-height: 1.1;
+  }
+
+  /* line 61, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h4 {
+    font-size: 1.4em;
+    line-height: 1.1;
+  }
+
+  /* line 62, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h5 {
+    font-size: 1.2em;
+    line-height: 1.1;
+  }
+
+  /* line 63, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h6 {
+    font-size: 1.1em;
+    line-height: 1.1;
+  }
+}
+@media only screen and (min-width: 45em) {
+  /* line 67, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  body {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+
+  /* line 68, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h1 {
+    font-size: 3em;
+    line-height: 1.1;
+  }
+
+  /* line 69, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h2 {
+    font-size: 2.5em;
+    line-height: 1.1;
+  }
+
+  /* line 70, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h3 {
+    font-size: 2em;
+    line-height: 1.1;
+  }
+
+  /* line 71, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h4 {
+    font-size: 1.8em;
+    line-height: 1.1;
+  }
+
+  /* line 72, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h5 {
+    font-size: 1.4em;
+    line-height: 1.1;
+  }
+
+  /* line 73, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h6 {
+    font-size: 1.1em;
+    line-height: 1.1;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 78, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h1 {
+    font-size: 4.5em;
+    line-height: 1.1;
+  }
+}
+@media only screen and (min-width: 75em) {
+  /* line 87, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h1 {
+    font-size: 5em;
+    line-height: 1.1;
+  }
+
+  /* line 88, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  h2 {
+    font-size: 3em;
+    line-height: 1.1;
+  }
+}
 /* header, body, and p */
-/* line 59, ../scss/_global.scss */
+/* line 99, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 h1 {
   text-align: center;
   color: #60F;
@@ -145,14 +251,14 @@ h1 {
   padding-top: 10px;
 }
 
-/* line 66, ../scss/_global.scss */
+/* line 106, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 h2 {
   color: #60F;
   text-align: center;
   font-size: 2.5em;
 }
 
-/* line 73, ../scss/_global.scss */
+/* line 113, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 body, p {
   text-align: left;
   font-size: 100%;
@@ -160,12 +266,12 @@ body, p {
   font-family: sans-serif;
 }
 
-/* line 80, ../scss/_global.scss */
+/* line 120, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 body {
   background-color: #FFFFEB;
 }
 
-/* line 84, ../scss/_global.scss */
+/* line 124, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 h3 {
   color: #069;
   font-family: Verdana, Geneva, sans-serif;
@@ -174,7 +280,7 @@ h3 {
   line-height: 2.0;
 }
 
-/* line 92, ../scss/_global.scss */
+/* line 132, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 h4 {
   color: #C60;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -182,7 +288,7 @@ h4 {
   line-height: 1.5;
 }
 
-/* line 99, ../scss/_global.scss */
+/* line 139, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 h5 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1em;
@@ -190,18 +296,44 @@ h5 {
   color: #006;
 }
 
-/* line 107, ../scss/_global.scss */
+/* line 147, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 header {
   height: 150px;
   border: 2px dotted #FFFFCC;
+  clear: both;
+  margin: 0 0;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+/* line 153, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+header .navigation nav {
+  width: 100%;
+}
+/* line 158, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+header header {
+  width: 75%;
+  padding: 0 15px;
+  float: left;
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 164, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
+  header header {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 
-/* line 112, ../scss/_global.scss */
+/* line 172, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 footer {
   color: #C60;
+  width: 50%;
+  padding: 0 15px;
+  float: left;
+  text-align: right;
 }
 
-/* line 116, ../scss/_global.scss */
+/* line 178, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 p.presenter {
   font-style: italic;
   color: #960;
@@ -209,14 +341,14 @@ p.presenter {
 
 /* end of body */
 /* picture */
-/* line 123, ../scss/_global.scss */
+/* line 185, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 .set {
   width: 50%;
   float: left;
   padding: 0 2%;
 }
 
-/* line 129, ../scss/_global.scss */
+/* line 191, /Users/qing.zhu/Documents/Midterm/scss/_global.scss */
 .pic {
   float: inherit;
   display: block;
@@ -225,28 +357,28 @@ p.presenter {
 }
 
 /* nav and links */
-/* line 2, ../scss/_navigation.scss */
+/* line 2, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 #nav {
   display: inline;
   text-align: left;
   clear: both;
 }
 
-/* line 9, ../scss/_navigation.scss */
+/* line 9, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 #nav ul {
   overflow: hidden;
   list-style-type: none;
   text-decoration: none;
 }
 
-/* line 16, ../scss/_navigation.scss */
+/* line 16, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 #nav li {
   display: block;
   line-height: 1em;
   text-decoration: none;
 }
 
-/* line 22, ../scss/_navigation.scss */
+/* line 22, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 li a {
   float: left;
   border-bottom: 1px solid #eee;
@@ -260,36 +392,36 @@ li a {
   padding: 0.625em;
 }
 
-/* line 37, ../scss/_navigation.scss */
+/* line 37, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 #nav li a:hover {
   color: #F93;
 }
 
-/* line 42, ../scss/_navigation.scss */
+/* line 42, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 #active a {
   display: inline;
   color: #F00;
   text-decoration: none;
 }
 
-/* line 48, ../scss/_navigation.scss */
+/* line 48, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 a:link {
   color: #66ffb3;
 }
 
-/* line 52, ../scss/_navigation.scss */
+/* line 52, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 a:visited {
   color: #00C;
 }
 
-/* line 56, ../scss/_navigation.scss */
+/* line 56, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 a {
   text-decoration: none;
 }
 
 /* end of nav and links */
 /* menu button */
-/* line 66, ../scss/_navigation.scss */
+/* line 66, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 .menu a {
   padding: 0.5em 0.625em;
   /*10/16 */
@@ -299,13 +431,13 @@ a {
   text-decoration: none;
 }
 
-/* line 74, ../scss/_navigation.scss */
+/* line 74, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 .menu a:hover {
   color: #555;
   background-color: #f90;
 }
 
-/* line 79, ../scss/_navigation.scss */
+/* line 79, /Users/qing.zhu/Documents/Midterm/scss/_navigation.scss */
 .menu {
   margin-bottom: 1em;
 }
@@ -317,32 +449,32 @@ Index Page (homepage)
 ========================== 
 */
 /* Default Styling */
-/* line 10, ../scss/pages/_index.scss */
+/* line 10, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 17, ../scss/pages/_index.scss */
+/* line 17, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 22, ../scss/pages/_index.scss */
+/* line 22, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 29, ../scss/pages/_index.scss */
+/* line 29, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
-/* line 35, ../scss/pages/_index.scss */
+/* line 35, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -352,14 +484,14 @@ Index Page (homepage)
 }
 
 /* picture */
-/* line 44, ../scss/pages/_index.scss */
+/* line 44, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
 .set {
   width: 50%;
   float: left;
   padding: 0 2%;
 }
 
-/* line 50, ../scss/pages/_index.scss */
+/* line 50, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
 .pic, .banner {
   float: inherit;
   display: block;
@@ -369,85 +501,81 @@ Index Page (homepage)
 
 /*Media Queries Styling and layout*/
 @media only screen and (min-width: 45em) {
-  /* line 61, ../scss/pages/_index.scss */
+  /* line 62, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
+  #first {
+    clear: both;
+    margin: 0 0;
+    overflow: hidden;
+  }
+
+  /* line 67, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
   #first {
     width: 25%;
-    padding: 0 1%;
+    padding: 0 15px;
     float: left;
-    padding-top: 70px;
-  }
-  /* line 17, ../scss/_mixins.scss */
-  #first:last-of-type {
-    float: right;
+    padding-bottom: 90px;
   }
 
-  /* line 66, ../scss/pages/_index.scss */
+  /* line 72, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
   #second {
     width: 25%;
-    padding: 0 1%;
+    padding: 0 15px;
     float: left;
   }
-  /* line 17, ../scss/_mixins.scss */
-  #second:last-of-type {
-    float: right;
-  }
 
-  /* line 71, ../scss/pages/_index.scss */
+  /* line 77, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
   #third {
     width: 25%;
-    padding: 0 1%;
+    padding: 0 15px;
     float: left;
   }
-  /* line 17, ../scss/_mixins.scss */
-  #third:last-of-type {
-    float: right;
-  }
 
-  /* line 75, ../scss/pages/_index.scss */
+  /* line 81, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
   #fourth {
     width: 25%;
-    padding: 0 1%;
+    padding: 0 15px;
     float: left;
   }
-  /* line 17, ../scss/_mixins.scss */
-  #fourth:last-of-type {
-    float: right;
-  }
 
-  /* line 79, ../scss/pages/_index.scss */
+  /* line 85, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
   #banner {
     max-width: 60%;
     max-height: 20%;
     float: right;
   }
+
+  /* line 92, /Users/qing.zhu/Documents/Midterm/scss/pages/_index.scss */
+  footer {
+    padding-left: 400px;
+  }
 }
 /*main content */
-/* line 2, ../scss/pages/_schedule.scss */
+/* line 2, /Users/qing.zhu/Documents/Midterm/scss/pages/_schedule.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 9, ../scss/pages/_schedule.scss */
+/* line 9, /Users/qing.zhu/Documents/Midterm/scss/pages/_schedule.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 14, ../scss/pages/_schedule.scss */
+/* line 14, /Users/qing.zhu/Documents/Midterm/scss/pages/_schedule.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 21, ../scss/pages/_schedule.scss */
+/* line 21, /Users/qing.zhu/Documents/Midterm/scss/pages/_schedule.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
-/* line 27, ../scss/pages/_schedule.scss */
+/* line 27, /Users/qing.zhu/Documents/Midterm/scss/pages/_schedule.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -457,32 +585,32 @@ Index Page (homepage)
 }
 
 /*main content */
-/* line 2, ../scss/pages/_speakers.scss */
+/* line 2, /Users/qing.zhu/Documents/Midterm/scss/pages/_speakers.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 9, ../scss/pages/_speakers.scss */
+/* line 9, /Users/qing.zhu/Documents/Midterm/scss/pages/_speakers.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 14, ../scss/pages/_speakers.scss */
+/* line 14, /Users/qing.zhu/Documents/Midterm/scss/pages/_speakers.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 21, ../scss/pages/_speakers.scss */
+/* line 21, /Users/qing.zhu/Documents/Midterm/scss/pages/_speakers.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
-/* line 27, ../scss/pages/_speakers.scss */
+/* line 27, /Users/qing.zhu/Documents/Midterm/scss/pages/_speakers.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -491,7 +619,7 @@ Index Page (homepage)
   /*postion:relative;*/
 }
 
-/* line 1, ../scss/pages/_about.scss */
+/* line 1, /Users/qing.zhu/Documents/Midterm/scss/pages/_about.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -501,25 +629,25 @@ Index Page (homepage)
 }
 
 /*main content */
-/* line 10, ../scss/pages/_about.scss */
+/* line 10, /Users/qing.zhu/Documents/Midterm/scss/pages/_about.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 17, ../scss/pages/_about.scss */
+/* line 17, /Users/qing.zhu/Documents/Midterm/scss/pages/_about.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 22, ../scss/pages/_about.scss */
+/* line 22, /Users/qing.zhu/Documents/Midterm/scss/pages/_about.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 29, ../scss/pages/_about.scss */
+/* line 29, /Users/qing.zhu/Documents/Midterm/scss/pages/_about.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
@@ -527,32 +655,32 @@ Index Page (homepage)
 
 /* end of main content */
 /*main content */
-/* line 2, ../scss/pages/_sessions.scss */
+/* line 2, /Users/qing.zhu/Documents/Midterm/scss/pages/_sessions.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 9, ../scss/pages/_sessions.scss */
+/* line 9, /Users/qing.zhu/Documents/Midterm/scss/pages/_sessions.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 14, ../scss/pages/_sessions.scss */
+/* line 14, /Users/qing.zhu/Documents/Midterm/scss/pages/_sessions.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 21, ../scss/pages/_sessions.scss */
+/* line 21, /Users/qing.zhu/Documents/Midterm/scss/pages/_sessions.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
-/* line 27, ../scss/pages/_sessions.scss */
+/* line 27, /Users/qing.zhu/Documents/Midterm/scss/pages/_sessions.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -561,7 +689,7 @@ Index Page (homepage)
   /*postion:relative;*/
 }
 
-/* line 1, ../scss/pages/_video.scss */
+/* line 1, /Users/qing.zhu/Documents/Midterm/scss/pages/_video.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -571,25 +699,25 @@ Index Page (homepage)
 }
 
 /*main content */
-/* line 10, ../scss/pages/_video.scss */
+/* line 10, /Users/qing.zhu/Documents/Midterm/scss/pages/_video.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 17, ../scss/pages/_video.scss */
+/* line 17, /Users/qing.zhu/Documents/Midterm/scss/pages/_video.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 22, ../scss/pages/_video.scss */
+/* line 22, /Users/qing.zhu/Documents/Midterm/scss/pages/_video.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 29, ../scss/pages/_video.scss */
+/* line 29, /Users/qing.zhu/Documents/Midterm/scss/pages/_video.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;

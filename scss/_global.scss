@@ -52,6 +52,46 @@ img,video {
 }
 /* end of frame */
 
+//font size changes at breakpoints
+@include breakpoint(small){
+	body{ font-size: 100%; line-height: 1.5}
+	h1{ font-size: 2em; line-height: 1.1; }
+	h2{ font-size: 1.8em; line-height: 1.1; }
+	h3{ font-size: 1.6em; line-height: 1.1; }
+	h4{ font-size: 1.4em; line-height: 1.1; }
+	h5{ font-size: 1.2em; line-height: 1.1; }
+	h6{ font-size: 1.1em; line-height: 1.1; }
+}
+
+@include breakpoint(medium){
+	body{ font-size: 100%; line-height: 1.5}
+	h1{ font-size: 3em; line-height: 1.1; }
+	h2{ font-size: 2.5em; line-height: 1.1; }
+	h3{ font-size: 2em; line-height: 1.1; }
+	h4{ font-size: 1.8em; line-height: 1.1; }
+	h5{ font-size: 1.4em; line-height: 1.1; }
+	h6{ font-size: 1.1em; line-height: 1.1; }
+}
+
+@include breakpoint(large){
+	// body{ font-size: 100%; line-height: 1.5}
+	h1{ font-size: 4.5em; line-height: 1.1; }
+	// h2{ font-size: 2.5em; line-height: 1.1; }
+	// h3{ font-size: 2em; line-height: 1.1; }
+	// h4{ font-size: 1.8em; line-height: 1.1; }
+	// h5{ font-size: 1.4em; line-height: 1.1; }
+	// h6{ font-size: 1.1em; line-height: 1.1; }
+}
+
+@include breakpoint(x-large){
+	h1{ font-size: 5em; line-height: 1.1; }
+	h2{ font-size: 3em; line-height: 1.1; }
+}
+
+@include breakpoint(xx-large){
+	h1{ font-size: 6em; line-height: 1; }
+}
+
 
 
 
@@ -107,10 +147,32 @@ font-family:Georgia, "Times New Roman", Times, serif;
 header {
 	height:150px;
 	border: 2px dotted #FFFFCC;
+	@include set-row();
+	margin-bottom: $spacer;
+	.navigation{
+		nav{
+			width:100%;
+		}
 	}
+
+	header{
+		@include col(3,4);
+	}
+
+	//this is just an example of how you might change the header at a specific breakpoint
+	@include breakpoint(large){
+		header {
+			@include col(4,4);
+		}
+	}//end large
+
+}// end header
+	
 
 footer {
 	color:#C60;
+	@include col(1,2);
+		text-align: right;
 	} 	
 
 p.presenter {

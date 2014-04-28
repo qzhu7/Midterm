@@ -57,10 +57,16 @@ Index Page (homepage)
 
 	 /*Media Queries Styling and layout*/
 	 @include breakpoint(medium){
+	 	
+	 
+	 #first {
+	 	@include set-row;
+	 } 
 	  
+
 	  #first {
 			@include col(1,4);
-			padding-top:70px;
+			padding-bottom:90px;
 		}
 	
 	#second {
@@ -80,9 +86,16 @@ Index Page (homepage)
      	max-width:60%;
      	max-height:20%;
      	float:right;
+     	
      }  
 
- }
+     footer {
+     	padding-left:400px;
+     }
+
+ 
+}
+
 
 
 	

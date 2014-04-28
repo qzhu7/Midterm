@@ -1,12 +1,21 @@
+
 // ------------------------------------------------
 // Grid Styling Mixin
 // ------------------------------------------------
-$gutter: 1%; //this comes out to 2% gutter because each column has 1% on each side so 2% where two coumns meet
+// We're using spacing to help create the gutters and top or bottom margin's to separate sections.
+// If you want the spacing to always be the same then you can set it in px or em. Setting it in % will be the most flexible, 
+// but it may mean the spacing will be different at different breakpoints.
+$spacer: 30px; //$spacer: 2%;$spacer: 1em; 
+$gutter: $spacer/2; //this comes out to 2% gutter because each column has 1% on each side so 2% where two coumns meet
+
 
 @mixin set-row{
 	clear:both;
 	margin: 0 0;
 	overflow: hidden;
+}
+@mixin no-row{
+	clear:none;
 }
 
 @mixin col($cols, $total){
@@ -14,9 +23,44 @@ $gutter: 1%; //this comes out to 2% gutter because each column has 1% on each si
 	padding:0 $gutter;
 	float: left;
 
+	// &:last-of-type{
+	// 	float:right;
+	// }
+}
+
+@mixin push-right(){
+	float:right;
+}
+@mixin push-left(){
+	float:left;
+}
+
+@mixin no-col(){
+	width:100%;
+	padding:0;
+	float:none;
+
+	&:last-of-type{
+		float:right;
+	}	
+}
+
+@mixin gridset($cols, $total){
+	width:$cols/$total * 100%;
+	padding:0 $gutter;
+	float: left;
+
 	&:last-of-type{
 		float:right;
 	}
+}
+
+@mixin first(){
+	padding-left: 0;
+}
+
+@mixin last(){
+	padding-right: 0;
 }
 
 // ------------------------------------------------
