@@ -1,3 +1,8 @@
+//layout
+#about{
+
+	// default layout =============================================
+
 .session, .video, .speak, .block, .sch {
 	width: 100%;
 	padding:20%;
@@ -31,3 +36,45 @@
 	border: 1px solid green; 
 	}
 /* end of main content */
+	
+
+
+
+	//medium breakpoint =============================================
+	@include breakpoint(medium){
+		background-color: green;
+
+		
+
+
+
+	}// end medium breakpoint
+
+
+
+	//large breakpoint =============================================
+	@include breakpoint(large){
+		background-color: yellow;
+
+		
+
+	}//end large breakpoint
+
+
+
+	//x-large breakkpoint  =============================================
+	@include breakpoint(x-large){
+		background-color: blue;
+		color: white;
+
+	}//end xlarge breakpoint
+	}//end #about
+
+
+	
+
+
+
+
+
+
