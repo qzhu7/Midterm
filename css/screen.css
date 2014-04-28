@@ -501,7 +501,37 @@ session, .video, .speak, .block, .sch {
 @media only screen and (min-width: 45em) {
   /* line 60, ../scss/pages/_index.scss */
   #home {
-    background-color: green;
+    background-color: #FFFFE0;
+  }
+  /* line 71, ../scss/pages/_index.scss */
+  #home #first {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 78, ../scss/pages/_index.scss */
+  #home #second {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 82, ../scss/pages/_index.scss */
+  #home #third {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 86, ../scss/pages/_index.scss */
+  #home #fourth {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 90, ../scss/pages/_index.scss */
+  #home #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
   }
 }
 @media only screen and (min-width: 67.5em) {
