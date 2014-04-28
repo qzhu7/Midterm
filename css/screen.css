@@ -448,107 +448,72 @@ a {
 Index Page (homepage)
 ========================== 
 */
-/* Default Styling */
-/* line 10, ../scss/pages/_index.scss */
-.ant {
+/* line 9, ../scss/pages/_index.scss */
+#index {
+  /* picture */
+  /* end of main content */
+}
+/* line 13, ../scss/pages/_index.scss */
+#index .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
-
-/* line 17, ../scss/pages/_index.scss */
-.bee {
+/* line 20, ../scss/pages/_index.scss */
+#index .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
-
-/* line 22, ../scss/pages/_index.scss */
-.croc {
+/* line 25, ../scss/pages/_index.scss */
+#index .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
-
-/* line 29, ../scss/pages/_index.scss */
-.dog {
+/* line 32, ../scss/pages/_index.scss */
+#index .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
-
-/* end of main content */
-/* line 35, ../scss/pages/_index.scss */
-.session, .video, .speak, .block, .sch {
+/* line 37, ../scss/pages/_index.scss */
+#index session, #index .video, #index .speak, #index .block, #index .sch {
   width: 100%;
   padding: 20%;
   margin: 5px auto;
   padding: 2px 8px;
   /*postion:relative;*/
 }
-
-/* picture */
-/* line 44, ../scss/pages/_index.scss */
-.set {
+/* line 46, ../scss/pages/_index.scss */
+#index .set {
   width: 50%;
   float: left;
   padding: 0 2%;
 }
-
-/* line 50, ../scss/pages/_index.scss */
-.pic, .banner {
+/* line 52, ../scss/pages/_index.scss */
+#index .pic, #index .banner {
   float: inherit;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
-/*Media Queries Styling and layout*/
 @media only screen and (min-width: 45em) {
-  /* line 62, ../scss/pages/_index.scss */
-  #first {
-    clear: both;
-    margin: 0 0;
-    overflow: hidden;
-  }
-
-  /* line 67, ../scss/pages/_index.scss */
-  #first {
-    width: 25%;
-    padding: 0 15px;
-    float: left;
-    padding-bottom: 90px;
-  }
-
-  /* line 72, ../scss/pages/_index.scss */
-  #second {
-    width: 25%;
-    padding: 0 15px;
-    float: left;
-  }
-
-  /* line 77, ../scss/pages/_index.scss */
-  #third {
-    width: 25%;
-    padding: 0 15px;
-    float: left;
-  }
-
-  /* line 81, ../scss/pages/_index.scss */
-  #fourth {
-    width: 25%;
-    padding: 0 15px;
-    float: left;
-  }
-
-  /* line 85, ../scss/pages/_index.scss */
-  #banner {
-    max-width: 60%;
-    max-height: 20%;
-    float: right;
-  }
-
-  /* line 92, ../scss/pages/_index.scss */
-  footer {
-    padding-left: 400px;
+  /* line 9, ../scss/pages/_index.scss */
+  #index {
+    background-color: green;
   }
 }
+@media only screen and (min-width: 67.5em) {
+  /* line 9, ../scss/pages/_index.scss */
+  #index {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 75em) {
+  /* line 9, ../scss/pages/_index.scss */
+  #index {
+    background-color: blue;
+    color: white;
+  }
+}
+
 /*main content */
 /* line 2, ../scss/pages/_schedule.scss */
 .ant {

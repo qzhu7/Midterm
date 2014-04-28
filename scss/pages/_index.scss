@@ -4,9 +4,12 @@
 Index Page (homepage)
 ========================== 
 */
-
-/* Default Styling */
 	
+//layout
+#index{
+
+	// default layout =============================================
+
 .ant {
 	background-color:#99CCFF;
 	border: 1px solid green; 
@@ -30,9 +33,8 @@ Index Page (homepage)
 	background-color:#CCFFFF;
 	border: 1px solid green; 
 	}
-/* end of main content */
 
-.session, .video, .speak, .block, .sch {
+	session, .video, .speak, .block, .sch {
 	width: 100%;
 	padding:20%;
 	margin:5px auto;
@@ -53,49 +55,46 @@ Index Page (homepage)
 	margin-left:auto;
 	margin-right:auto;
 }
-
-
-	 /*Media Queries Styling and layout*/
-	 @include breakpoint(medium){
-	 	
-	 
-	 #first {
-	 	@include set-row;
-	 } 
-	  
-
-	  #first {
-			@include col(1,4);
-			padding-bottom:90px;
-		}
+/* end of main content */
 	
-	#second {
-		@include col(1,4);
+
+
+
+	//medium breakpoint =============================================
+	@include breakpoint(medium){
+		background-color: green;
+
 		
-	}
 
-	#third {
-         @include col(1,4);
-	}
 
-	#fourth {
-		@include col(1,4);
-	}
-     
-     #banner {
-     	max-width:60%;
-     	max-height:20%;
-     	float:right;
-     	
-     }  
 
-     footer {
-     	padding-left:400px;
-     }
+	}// end medium breakpoint
 
- 
-}
 
+
+	//large breakpoint =============================================
+	@include breakpoint(large){
+		background-color: yellow;
+
+		
+
+	}//end large breakpoint
+
+
+
+	//x-large breakkpoint  =============================================
+	@include breakpoint(x-large){
+		background-color: blue;
+		color: white;
+
+	}//end xlarge breakpoint
+	}//end #about
 
 
 	
+
+
+
+
+
+
