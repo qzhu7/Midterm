@@ -448,140 +448,184 @@ a {
 Index Page (homepage)
 ========================== 
 */
-/* line 9, ../scss/pages/_index.scss */
-#index {
-  /* picture */
-  /* end of main content */
-}
 /* line 13, ../scss/pages/_index.scss */
-#index .ant {
+.ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
+
 /* line 20, ../scss/pages/_index.scss */
-#index .bee {
+.bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
+
 /* line 25, ../scss/pages/_index.scss */
-#index .croc {
+.croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
+
 /* line 32, ../scss/pages/_index.scss */
-#index .dog {
+.dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
+
 /* line 37, ../scss/pages/_index.scss */
-#index session, #index .video, #index .speak, #index .block, #index .sch {
+session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
   margin: 5px auto;
   padding: 2px 8px;
   /*postion:relative;*/
 }
+
+/* picture */
 /* line 46, ../scss/pages/_index.scss */
-#index .set {
+.set {
   width: 50%;
   float: left;
   padding: 0 2%;
 }
+
 /* line 52, ../scss/pages/_index.scss */
-#index .pic, #index .banner {
+.pic, .banner {
   float: inherit;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* end of main content */
 @media only screen and (min-width: 45em) {
-  /* line 9, ../scss/pages/_index.scss */
-  #index {
+  /* line 60, ../scss/pages/_index.scss */
+  #home {
     background-color: green;
   }
 }
 @media only screen and (min-width: 67.5em) {
-  /* line 9, ../scss/pages/_index.scss */
-  #index {
+  /* line 60, ../scss/pages/_index.scss */
+  #home {
     background-color: yellow;
   }
 }
 @media only screen and (min-width: 75em) {
-  /* line 9, ../scss/pages/_index.scss */
-  #index {
+  /* line 60, ../scss/pages/_index.scss */
+  #home {
     background-color: blue;
     color: white;
   }
 }
 
 /*main content */
-/* line 2, ../scss/pages/_schedule.scss */
+/* line 4, ../scss/pages/_schedule.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 9, ../scss/pages/_schedule.scss */
+/* line 11, ../scss/pages/_schedule.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 14, ../scss/pages/_schedule.scss */
+/* line 16, ../scss/pages/_schedule.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 21, ../scss/pages/_schedule.scss */
+/* line 23, ../scss/pages/_schedule.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
-/* line 27, ../scss/pages/_schedule.scss */
+/* line 29, ../scss/pages/_schedule.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
   margin: 5px auto;
   padding: 2px 8px;
   /*postion:relative;*/
+}
+
+@media only screen and (min-width: 45em) {
+  /* line 38, ../scss/pages/_schedule.scss */
+  #sch {
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 38, ../scss/pages/_schedule.scss */
+  #sch {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 75em) {
+  /* line 38, ../scss/pages/_schedule.scss */
+  #sch {
+    background-color: blue;
+    color: white;
+  }
 }
 
 /*main content */
-/* line 2, ../scss/pages/_speakers.scss */
+/* line 6, ../scss/pages/_speakers.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 9, ../scss/pages/_speakers.scss */
+/* line 13, ../scss/pages/_speakers.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 14, ../scss/pages/_speakers.scss */
+/* line 18, ../scss/pages/_speakers.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 21, ../scss/pages/_speakers.scss */
+/* line 25, ../scss/pages/_speakers.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
-/* line 27, ../scss/pages/_speakers.scss */
+/* line 31, ../scss/pages/_speakers.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
   margin: 5px auto;
   padding: 2px 8px;
   /*postion:relative;*/
+}
+
+@media only screen and (min-width: 45em) {
+  /* line 39, ../scss/pages/_speakers.scss */
+  #speak {
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 39, ../scss/pages/_speakers.scss */
+  #speak {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 75em) {
+  /* line 39, ../scss/pages/_speakers.scss */
+  #speak {
+    background-color: blue;
+    color: white;
+  }
 }
 
 /* line 2, ../scss/pages/_about.scss */
@@ -638,32 +682,32 @@ Index Page (homepage)
 }
 
 /*main content */
-/* line 2, ../scss/pages/_sessions.scss */
+/* line 6, ../scss/pages/_sessions.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 9, ../scss/pages/_sessions.scss */
+/* line 13, ../scss/pages/_sessions.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 14, ../scss/pages/_sessions.scss */
+/* line 18, ../scss/pages/_sessions.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 21, ../scss/pages/_sessions.scss */
+/* line 25, ../scss/pages/_sessions.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
-/* line 27, ../scss/pages/_sessions.scss */
+/* line 31, ../scss/pages/_sessions.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -672,7 +716,27 @@ Index Page (homepage)
   /*postion:relative;*/
 }
 
-/* line 1, ../scss/pages/_video.scss */
+@media only screen and (min-width: 45em) {
+  /* line 40, ../scss/pages/_sessions.scss */
+  #sess {
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 40, ../scss/pages/_sessions.scss */
+  #sess {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 75em) {
+  /* line 40, ../scss/pages/_sessions.scss */
+  #sess {
+    background-color: blue;
+    color: white;
+  }
+}
+
+/* line 5, ../scss/pages/_video.scss */
 .session, .video, .speak, .block, .sch {
   width: 100%;
   padding: 20%;
@@ -682,28 +746,47 @@ Index Page (homepage)
 }
 
 /*main content */
-/* line 10, ../scss/pages/_video.scss */
+/* line 14, ../scss/pages/_video.scss */
 .ant {
   background-color: #99CCFF;
   border: 1px solid green;
 }
 
-/* line 17, ../scss/pages/_video.scss */
+/* line 21, ../scss/pages/_video.scss */
 .bee {
   background-color: #A8D1E5;
   border: 1px solid green;
 }
 
-/* line 22, ../scss/pages/_video.scss */
+/* line 26, ../scss/pages/_video.scss */
 .croc {
   background-color: #F0FFFF;
   border: 1px solid green;
 }
 
-/* line 29, ../scss/pages/_video.scss */
+/* line 33, ../scss/pages/_video.scss */
 .dog {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
 
 /* end of main content */
+@media only screen and (min-width: 45em) {
+  /* line 39, ../scss/pages/_video.scss */
+  #vid {
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 67.5em) {
+  /* line 39, ../scss/pages/_video.scss */
+  #vid {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 75em) {
+  /* line 39, ../scss/pages/_video.scss */
+  #vid {
+    background-color: blue;
+    color: white;
+  }
+}

@@ -6,7 +6,7 @@ Index Page (homepage)
 */
 	
 //layout
-#index{
+
 
 	// default layout =============================================
 
@@ -57,6 +57,10 @@ Index Page (homepage)
 }
 /* end of main content */
 	
+#home {
+
+
+	
 
 
 
@@ -77,7 +81,6 @@ Index Page (homepage)
 		background-color: yellow;
 
 		
-
 	}//end large breakpoint
 
 
@@ -88,10 +91,12 @@ Index Page (homepage)
 		color: white;
 
 	}//end xlarge breakpoint
-	}//end #about
 
 
 	
+
+
+	}//end home
 
 
 

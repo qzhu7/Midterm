@@ -1,3 +1,7 @@
+
+
+	// default layout =============================================
+
 /*main content */
 .ant {
 	background-color:#99CCFF;
@@ -31,3 +35,43 @@
 	padding:2px 8px; 
 	/*postion:relative;*/  
 	}
+	
+#speak {
+
+
+	
+
+
+	//medium breakpoint =============================================
+	@include breakpoint(medium){
+		background-color: green;
+
+		
+
+
+
+	}// end medium breakpoint
+
+
+
+	//large breakpoint =============================================
+	@include breakpoint(large){
+		background-color: yellow;
+
+		
+	}//end large breakpoint
+
+
+
+	//x-large breakkpoint  =============================================
+	@include breakpoint(x-large){
+		background-color: blue;
+		color: white;
+
+	}//end xlarge breakpoint
+
+
+	
+
+
+	}//end speak
