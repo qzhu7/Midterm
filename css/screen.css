@@ -504,30 +504,50 @@ session, .video, .speak, .block, .sch {
     background-color: #FFFFE0;
   }
   /* line 71, ../scss/pages/_index.scss */
+  #home h3 {
+    text-align: center;
+  }
+  /* line 76, ../scss/pages/_index.scss */
   #home #first {
-    width: 33.33333%;
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 76, ../scss/pages/_index.scss */
+  /* line 81, ../scss/pages/_index.scss */
+  #home #first h2 {
+    font-size: 1.6em;
+  }
+  /* line 86, ../scss/pages/_index.scss */
+  #home #first p {
+    line-height: 1.4em;
+  }
+  /* line 94, ../scss/pages/_index.scss */
   #home #second {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 80, ../scss/pages/_index.scss */
+  /* line 98, ../scss/pages/_index.scss */
+  #home #second p {
+    line-height: 1.6em;
+  }
+  /* line 106, ../scss/pages/_index.scss */
   #home #third {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 84, ../scss/pages/_index.scss */
+  /* line 110, ../scss/pages/_index.scss */
+  #home #third, #home h4 {
+    text-align: center;
+  }
+  /* line 117, ../scss/pages/_index.scss */
   #home #fourth {
-    width: 100%;
+    width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 88, ../scss/pages/_index.scss */
+  /* line 124, ../scss/pages/_index.scss */
   #home #nav {
     width: 100%;
     padding: 0 15px;
@@ -537,7 +557,37 @@ session, .video, .speak, .block, .sch {
 @media only screen and (min-width: 67.5em) {
   /* line 60, ../scss/pages/_index.scss */
   #home {
-    background-color: yellow;
+    background-color: #F5FFF5;
+  }
+  /* line 135, ../scss/pages/_index.scss */
+  #home #first {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 140, ../scss/pages/_index.scss */
+  #home #second {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 144, ../scss/pages/_index.scss */
+  #home #third {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 148, ../scss/pages/_index.scss */
+  #home #fourth {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 153, ../scss/pages/_index.scss */
+  #home #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
   }
 }
 @media only screen and (min-width: 75em) {
