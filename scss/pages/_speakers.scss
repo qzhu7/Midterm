@@ -42,9 +42,20 @@
 	
 
 
+	//small =============================================
+	@include breakpoint(small){
+		background-color: #F6FFFF;
+
+		
+		
+}//end small
+
+	
+
+
 	//medium breakpoint =============================================
 	@include breakpoint(medium){
-		background-color: green;
+		background-color: #FFFFE0;
 
 		
 
@@ -56,22 +67,15 @@
 
 	//large breakpoint =============================================
 	@include breakpoint(large){
-		background-color: yellow;
+		background-color: #F5FFF5;
 
 		
+
 	}//end large breakpoint
-
-
-
-	//x-large breakkpoint  =============================================
-	@include breakpoint(x-large){
-		background-color: blue;
-		color: white;
-
-	}//end xlarge breakpoint
+	}//end #speak
 
 
 	
 
 
-	}//end speak
+	

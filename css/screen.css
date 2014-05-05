@@ -673,23 +673,22 @@ session, .video, .speak, .block, .sch {
   /*postion:relative;*/
 }
 
+@media only screen and (min-width: 30.0625em) {
+  /* line 38, ../scss/pages/_schedule.scss */
+  #sch {
+    background-color: #F6FFFF;
+  }
+}
 @media only screen and (min-width: 45em) {
   /* line 38, ../scss/pages/_schedule.scss */
   #sch {
-    background-color: green;
+    background-color: #FFFFE0;
   }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 38, ../scss/pages/_schedule.scss */
   #sch {
-    background-color: yellow;
-  }
-}
-@media only screen and (min-width: 75em) {
-  /* line 38, ../scss/pages/_schedule.scss */
-  #sch {
-    background-color: blue;
-    color: white;
+    background-color: #F5FFF5;
   }
 }
 
@@ -728,23 +727,22 @@ session, .video, .speak, .block, .sch {
   /*postion:relative;*/
 }
 
+@media only screen and (min-width: 30.0625em) {
+  /* line 39, ../scss/pages/_speakers.scss */
+  #speak {
+    background-color: #F6FFFF;
+  }
+}
 @media only screen and (min-width: 45em) {
   /* line 39, ../scss/pages/_speakers.scss */
   #speak {
-    background-color: green;
+    background-color: #FFFFE0;
   }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 39, ../scss/pages/_speakers.scss */
   #speak {
-    background-color: yellow;
-  }
-}
-@media only screen and (min-width: 75em) {
-  /* line 39, ../scss/pages/_speakers.scss */
-  #speak {
-    background-color: blue;
-    color: white;
+    background-color: #F5FFF5;
   }
 }
 
@@ -781,23 +779,22 @@ session, .video, .speak, .block, .sch {
   background-color: #CCFFFF;
   border: 1px solid green;
 }
+@media only screen and (min-width: 30.0625em) {
+  /* line 2, ../scss/pages/_about.scss */
+  #about {
+    background-color: #F6FFFF;
+  }
+}
 @media only screen and (min-width: 45em) {
   /* line 2, ../scss/pages/_about.scss */
   #about {
-    background-color: green;
+    background-color: #FFFFE0;
   }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 2, ../scss/pages/_about.scss */
   #about {
-    background-color: yellow;
-  }
-}
-@media only screen and (min-width: 75em) {
-  /* line 2, ../scss/pages/_about.scss */
-  #about {
-    background-color: blue;
-    color: white;
+    background-color: #F5FFF5;
   }
 }
 
@@ -836,23 +833,22 @@ session, .video, .speak, .block, .sch {
   /*postion:relative;*/
 }
 
+@media only screen and (min-width: 30.0625em) {
+  /* line 40, ../scss/pages/_sessions.scss */
+  #sess {
+    background-color: #F6FFFF;
+  }
+}
 @media only screen and (min-width: 45em) {
   /* line 40, ../scss/pages/_sessions.scss */
   #sess {
-    background-color: green;
+    background-color: #FFFFE0;
   }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 40, ../scss/pages/_sessions.scss */
   #sess {
-    background-color: yellow;
-  }
-}
-@media only screen and (min-width: 75em) {
-  /* line 40, ../scss/pages/_sessions.scss */
-  #sess {
-    background-color: blue;
-    color: white;
+    background-color: #F5FFF5;
   }
 }
 
@@ -891,22 +887,21 @@ session, .video, .speak, .block, .sch {
 }
 
 /* end of main content */
+@media only screen and (min-width: 30.0625em) {
+  /* line 39, ../scss/pages/_video.scss */
+  #vid {
+    background-color: #F6FFFF;
+  }
+}
 @media only screen and (min-width: 45em) {
   /* line 39, ../scss/pages/_video.scss */
   #vid {
-    background-color: green;
+    background-color: #FFFFE0;
   }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 39, ../scss/pages/_video.scss */
   #vid {
-    background-color: yellow;
-  }
-}
-@media only screen and (min-width: 75em) {
-  /* line 39, ../scss/pages/_video.scss */
-  #vid {
-    background-color: blue;
-    color: white;
+    background-color: #F5FFF5;
   }
 }
