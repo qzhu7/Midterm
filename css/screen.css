@@ -498,56 +498,95 @@ session, .video, .speak, .block, .sch {
 }
 
 /* end of main content */
+@media only screen and (min-width: 30.0625em) {
+  /* line 61, ../scss/pages/_index.scss */
+  #home {
+    background-color: #F6FFFF;
+  }
+  /* line 68, ../scss/pages/_index.scss */
+  #home .croc {
+    margin-bottom: 35px;
+  }
+  /* line 73, ../scss/pages/_index.scss */
+  #home h3 {
+    margin-top: 25px;
+  }
+  /* line 77, ../scss/pages/_index.scss */
+  #home .ant p, #home .bee p {
+    margin-top: 25px;
+  }
+  /* line 81, ../scss/pages/_index.scss */
+  #home .dog p {
+    margin-top: 15px;
+  }
+}
 @media only screen and (min-width: 45em) {
-  /* line 60, ../scss/pages/_index.scss */
+  /* line 61, ../scss/pages/_index.scss */
   #home {
     background-color: #FFFFE0;
   }
-  /* line 71, ../scss/pages/_index.scss */
+  /* line 94, ../scss/pages/_index.scss */
+  #home h2 {
+    padding-top: 30px;
+  }
+  /* line 98, ../scss/pages/_index.scss */
   #home h3 {
     text-align: center;
+    margin-top: 0px;
   }
-  /* line 76, ../scss/pages/_index.scss */
+  /* line 103, ../scss/pages/_index.scss */
+  #home .ant p {
+    margin-top: 25px;
+  }
+  /* line 107, ../scss/pages/_index.scss */
+  #home .bee p, #home .croc p {
+    margin-top: 2px;
+  }
+  /* line 111, ../scss/pages/_index.scss */
+  #home .dog p {
+    margin-top: 4px;
+  }
+  /* line 118, ../scss/pages/_index.scss */
   #home #first {
     width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 81, ../scss/pages/_index.scss */
+  /* line 123, ../scss/pages/_index.scss */
   #home #first h2 {
     font-size: 1.6em;
   }
-  /* line 86, ../scss/pages/_index.scss */
+  /* line 128, ../scss/pages/_index.scss */
   #home #first p {
     line-height: 1.4em;
   }
-  /* line 94, ../scss/pages/_index.scss */
+  /* line 136, ../scss/pages/_index.scss */
   #home #second {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 98, ../scss/pages/_index.scss */
+  /* line 140, ../scss/pages/_index.scss */
   #home #second p {
-    line-height: 1.6em;
+    line-height: 1.4em;
   }
-  /* line 106, ../scss/pages/_index.scss */
+  /* line 148, ../scss/pages/_index.scss */
   #home #third {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 110, ../scss/pages/_index.scss */
+  /* line 152, ../scss/pages/_index.scss */
   #home #third, #home h4 {
     text-align: center;
   }
-  /* line 117, ../scss/pages/_index.scss */
+  /* line 159, ../scss/pages/_index.scss */
   #home #fourth {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 124, ../scss/pages/_index.scss */
+  /* line 166, ../scss/pages/_index.scss */
   #home #nav {
     width: 100%;
     padding: 0 15px;
@@ -555,46 +594,47 @@ session, .video, .speak, .block, .sch {
   }
 }
 @media only screen and (min-width: 67.5em) {
-  /* line 60, ../scss/pages/_index.scss */
+  /* line 61, ../scss/pages/_index.scss */
   #home {
     background-color: #F5FFF5;
   }
-  /* line 135, ../scss/pages/_index.scss */
+  /* line 178, ../scss/pages/_index.scss */
+  #home h2 {
+    padding-top: 5px;
+  }
+  /* line 182, ../scss/pages/_index.scss */
+  #home .ant p {
+    margin-top: -16px;
+  }
+  /* line 188, ../scss/pages/_index.scss */
   #home #first {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 140, ../scss/pages/_index.scss */
+  /* line 197, ../scss/pages/_index.scss */
   #home #second {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 144, ../scss/pages/_index.scss */
+  /* line 204, ../scss/pages/_index.scss */
   #home #third {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 148, ../scss/pages/_index.scss */
+  /* line 211, ../scss/pages/_index.scss */
   #home #fourth {
     width: 25%;
     padding: 0 15px;
     float: left;
   }
-  /* line 153, ../scss/pages/_index.scss */
+  /* line 217, ../scss/pages/_index.scss */
   #home #nav {
     width: 100%;
     padding: 0 15px;
     float: left;
-  }
-}
-@media only screen and (min-width: 75em) {
-  /* line 60, ../scss/pages/_index.scss */
-  #home {
-    background-color: blue;
-    color: white;
   }
 }
 

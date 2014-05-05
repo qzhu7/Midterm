@@ -55,22 +55,64 @@ Index Page (homepage)
 	margin-left:auto;
 	margin-right:auto;
 }
+
 /* end of main content */
 	
 #home {
 
 
-	
+	//small =============================================
+	@include breakpoint(small){
+		background-color: #F6FFFF;
+
+		.croc {
+			margin-bottom:35px;
+		} 
 
 
+		h3 {
+			margin-top:25px;
+		}
+
+		.ant p, .bee p {
+        margin-top:25px;
+		}
+
+		.dog p {
+			margin-top:15px;
+		}
+		
+
+	}//end small
 
 	//medium breakpoint =============================================
 	@include breakpoint(medium){
 		background-color: #FFFFE0;
 		
+		// overwrite previous styling for p
+
+		h2{
+			padding-top:30px;
+		}
+
 		h3 {
 			text-align:center;
+			margin-top:0px;
 		}
+
+		 .ant p {
+		 	margin-top:25px;
+		 }
+
+		 .bee p, .croc p {
+			margin-top:2px
+		}
+
+		.dog p {
+			margin-top:4px;
+		}
+
+		// end
 
 		// short summary
 		#first {
@@ -96,7 +138,7 @@ Index Page (homepage)
 		}
 
 		#second p {
-			line-height:1.6em;
+			line-height:1.4em;
 		}
 
 		// end
@@ -132,43 +174,52 @@ Index Page (homepage)
 	//large breakpoint =============================================
 	@include breakpoint(large){
 		background-color: #F5FFF5;
+
+		h2{
+			padding-top:5px;
+		}
+		
+		.ant p {
+		 	margin-top:-16px;
+
+		 }
+		
+		// short summary
 		#first {
 			@include col (1,4) 
 			
 			}
+			
+			// end
 
+      
+		// Date n location
       #second {
 			@include col (1,4)
 		}
-
+		// end
+		
+		
+		// feature
 		#third {
 			@include col (1,4) 
 		}
-
+		// end
+       
+		
+		// workshop
        #fourth {
 			@include col (1,4)
 
 		}
-
+		// end
+		
 		#nav {
-			@include col (1,1) 
+			@include col (4,4) 
 		}
 
 		
 	}//end large breakpoint
-
-
-
-	//x-large breakkpoint  =============================================
-	@include breakpoint(x-large){
-		background-color: blue;
-		color: white;
-
-	}//end xlarge breakpoint
-
-
-	
-
 
 	}//end home
 
