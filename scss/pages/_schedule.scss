@@ -52,6 +52,44 @@
 	@include breakpoint(medium){
 		background-color: #FFFFE0;
 
+#first {
+			@include col (4,4) 
+			
+			}
+
+			#first h2 {
+				font-size:1.6em
+
+			}
+
+			#second {
+			@include col (1,4)
+		}
+
+		#third {
+			@include col (3,4) 
+		}
+
+		#fourth {
+			@include col (3,4)
+
+		}
+
+		#fifth {
+			@include col (1,4)
+		}
+
+		#sixth {
+			@include col (2,4)
+		}
+
+		#seventh {
+			@include col (4,4)
+		}
+
+		#nav {
+			@include col (3,3) 
+		}
 		
 
 

@@ -689,6 +689,58 @@ session, .video, .speak, .block, .sch {
   #sch {
     background-color: #FFFFE0;
   }
+  /* line 55, ../scss/pages/_schedule.scss */
+  #sch #first {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 60, ../scss/pages/_schedule.scss */
+  #sch #first h2 {
+    font-size: 1.6em;
+  }
+  /* line 65, ../scss/pages/_schedule.scss */
+  #sch #second {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 69, ../scss/pages/_schedule.scss */
+  #sch #third {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 73, ../scss/pages/_schedule.scss */
+  #sch #fourth {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 78, ../scss/pages/_schedule.scss */
+  #sch #fifth {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 82, ../scss/pages/_schedule.scss */
+  #sch #sixth {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 86, ../scss/pages/_schedule.scss */
+  #sch #seventh {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 90, ../scss/pages/_schedule.scss */
+  #sch #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 38, ../scss/pages/_schedule.scss */
@@ -795,11 +847,84 @@ session, .video, .speak, .block, .sch {
   #about {
     background-color: #FFFFE0;
   }
+  /* line 55, ../scss/pages/_about.scss */
+  #about h2 {
+    padding-top: 30px;
+  }
+  /* line 59, ../scss/pages/_about.scss */
+  #about h3 {
+    text-align: center;
+    margin-top: 0px;
+  }
+  /* line 64, ../scss/pages/_about.scss */
+  #about .ant p {
+    margin-top: 25px;
+  }
+  /* line 68, ../scss/pages/_about.scss */
+  #about .bee p, #about .croc p {
+    margin-top: 2px;
+  }
+  /* line 72, ../scss/pages/_about.scss */
+  #about .dog p {
+    margin-top: 4px;
+  }
+  /* line 76, ../scss/pages/_about.scss */
+  #about #first {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 81, ../scss/pages/_about.scss */
+  #about #first h2 {
+    font-size: 1.6em;
+  }
+  /* line 88, ../scss/pages/_about.scss */
+  #about #third {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 92, ../scss/pages/_about.scss */
+  #about #fourth {
+    width: 66.66667%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 97, ../scss/pages/_about.scss */
+  #about #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 2, ../scss/pages/_about.scss */
   #about {
     background-color: #F5FFF5;
+  }
+  /* line 113, ../scss/pages/_about.scss */
+  #about #first {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 127, ../scss/pages/_about.scss */
+  #about #third {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 134, ../scss/pages/_about.scss */
+  #about #fourth {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 140, ../scss/pages/_about.scss */
+  #about #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
   }
 }
 

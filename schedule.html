@@ -5,6 +5,16 @@
 <title>Schedule</title>
 <link rel="stylesheet" type="text/css" href="css/screen.css">
 <link rel="stylesheet" type="text/css" href="css/print.css">
+<link href='http://fonts.googleapis.com/css?family=Armata' rel='stylesheet' type='text/css'>
+<script language="javascript" type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+ <script language="javascript" type="text/javascript" src="js/jquery.equal-height-columns.js"></script> 
+
+<script>
+    jQuery(document).ready(function() {
+    jQuery(".group").equalHeightColumns();
+ });
+    
+</script>
 </head>
 <body id="sch">
 <header>
@@ -19,7 +29,7 @@
 <img src="img/sch.png" alt="sch" height="150">
 </div>
 
-
+<section class="group">
 <section id="first"> 
 <div class="sch ant">
 <h3>CONFERENCE OPENING</h3>
@@ -122,6 +132,7 @@
 <h5>  Closing Remarks
      room: RICHARD HARRIS TERRACE</h5>
 </div>
+</section>
 </section>
 
 <a name="nav"></a>
