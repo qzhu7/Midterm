@@ -42,6 +42,15 @@
 	@include breakpoint(small){
 		background-color: #F6FFFF;
 
+		.ant p, .bee p, .croc p, .dog p{
+			margin-bottom:10px;
+		}
+
+#first p {
+	margin-right:15px;
+}
+
+
 		
 		
 }//end small
@@ -61,17 +70,11 @@
 			margin-top:0px;
 		}
 
-		 .ant p {
-		 	margin-top:25px;
-		 }
-
-		 .bee p, .croc p {
-			margin-top:2px
+		
+		.mapWrapper{
+			margin-bottom:10px;
 		}
 
-		.dog p {
-			margin-top:4px;
-		}
 
 		#first {
 			@include col (3,3) 

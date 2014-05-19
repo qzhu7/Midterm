@@ -86,6 +86,9 @@
 
 		}
 
+#nav {
+			@include col (3,3) 
+		}
 		
 
 
@@ -127,6 +130,9 @@
 
 		}
 
+		#nav {
+			@include col (3,3) 
+		}
 		
 
 		

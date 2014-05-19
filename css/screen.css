@@ -819,32 +819,44 @@ session, .video, .speak, .block, .sch {
     padding: 0 15px;
     float: left;
   }
+  /* line 89, ../scss/pages/_speakers.scss */
+  #speak #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 39, ../scss/pages/_speakers.scss */
   #speak {
     background-color: #F5FFF5;
   }
-  /* line 101, ../scss/pages/_speakers.scss */
+  /* line 104, ../scss/pages/_speakers.scss */
   #speak #first {
     width: 66.66667%;
     padding: 0 15px;
     float: left;
   }
-  /* line 108, ../scss/pages/_speakers.scss */
+  /* line 111, ../scss/pages/_speakers.scss */
   #speak #second {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 117, ../scss/pages/_speakers.scss */
+  /* line 120, ../scss/pages/_speakers.scss */
   #speak #third {
     width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 125, ../scss/pages/_speakers.scss */
+  /* line 128, ../scss/pages/_speakers.scss */
   #speak #fourth {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 133, ../scss/pages/_speakers.scss */
+  #speak #nav {
     width: 100%;
     padding: 0 15px;
     float: left;
@@ -889,56 +901,56 @@ session, .video, .speak, .block, .sch {
   #about {
     background-color: #F6FFFF;
   }
+  /* line 45, ../scss/pages/_about.scss */
+  #about .ant p, #about .bee p, #about .croc p, #about .dog p {
+    margin-bottom: 10px;
+  }
+  /* line 49, ../scss/pages/_about.scss */
+  #about #first p {
+    margin-right: 15px;
+  }
 }
 @media only screen and (min-width: 45em) {
   /* line 2, ../scss/pages/_about.scss */
   #about {
     background-color: #FFFFE0;
   }
-  /* line 55, ../scss/pages/_about.scss */
+  /* line 64, ../scss/pages/_about.scss */
   #about h2 {
     padding-top: 30px;
   }
-  /* line 59, ../scss/pages/_about.scss */
+  /* line 68, ../scss/pages/_about.scss */
   #about h3 {
     text-align: center;
     margin-top: 0px;
   }
-  /* line 64, ../scss/pages/_about.scss */
-  #about .ant p {
-    margin-top: 25px;
+  /* line 74, ../scss/pages/_about.scss */
+  #about .mapWrapper {
+    margin-bottom: 10px;
   }
-  /* line 68, ../scss/pages/_about.scss */
-  #about .bee p, #about .croc p {
-    margin-top: 2px;
-  }
-  /* line 72, ../scss/pages/_about.scss */
-  #about .dog p {
-    margin-top: 4px;
-  }
-  /* line 76, ../scss/pages/_about.scss */
+  /* line 79, ../scss/pages/_about.scss */
   #about #first {
     width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 81, ../scss/pages/_about.scss */
+  /* line 84, ../scss/pages/_about.scss */
   #about #first h2 {
     font-size: 1.6em;
   }
-  /* line 88, ../scss/pages/_about.scss */
+  /* line 91, ../scss/pages/_about.scss */
   #about #third {
     width: 33.33333%;
     padding: 0 15px;
     float: left;
   }
-  /* line 92, ../scss/pages/_about.scss */
+  /* line 95, ../scss/pages/_about.scss */
   #about #fourth {
     width: 66.66667%;
     padding: 0 15px;
     float: left;
   }
-  /* line 97, ../scss/pages/_about.scss */
+  /* line 100, ../scss/pages/_about.scss */
   #about #nav {
     width: 100%;
     padding: 0 15px;
@@ -950,25 +962,25 @@ session, .video, .speak, .block, .sch {
   #about {
     background-color: #F5FFF5;
   }
-  /* line 113, ../scss/pages/_about.scss */
+  /* line 116, ../scss/pages/_about.scss */
   #about #first {
     width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 127, ../scss/pages/_about.scss */
+  /* line 130, ../scss/pages/_about.scss */
   #about #third {
     width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 134, ../scss/pages/_about.scss */
+  /* line 137, ../scss/pages/_about.scss */
   #about #fourth {
     width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 140, ../scss/pages/_about.scss */
+  /* line 143, ../scss/pages/_about.scss */
   #about #nav {
     width: 100%;
     padding: 0 15px;
@@ -1088,7 +1100,7 @@ session, .video, .speak, .block, .sch {
   }
   /* line 115, ../scss/pages/_sessions.scss */
   #sess #nav {
-    width: 25%;
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
