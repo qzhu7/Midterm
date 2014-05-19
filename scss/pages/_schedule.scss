@@ -71,6 +71,68 @@
 		}
 
 		#fourth {
+			@include col (1,4)
+
+		}
+
+		#fifth {
+			@include col (3,4)
+		}
+
+		#sixth {
+			@include col (4,4)
+		}
+
+		#seventh {
+			@include col (4,4)
+		}
+
+		#nav {
+			@include col (3,3) 
+		}
+
+		h4, h5 {
+	margin-bottom:20px;
+}
+		
+
+
+
+	}// end medium breakpoint
+
+
+
+	//large breakpoint =============================================
+	@include breakpoint(large){
+		background-color: #F5FFF5;
+		
+h4, h5 {
+	margin-bottom:50px;
+}
+
+p {
+	margin-top:20px;
+}
+
+		#first {
+			@include col (4,4) 
+			
+			}
+
+			#first h2 {
+				font-size:1.6em
+
+			}
+
+			#second {
+			@include col (3,4)
+		}
+
+		#third {
+			@include col (1,4) 
+		}
+
+		#fourth {
 			@include col (3,4)
 
 		}
@@ -84,23 +146,12 @@
 		}
 
 		#seventh {
-			@include col (4,4)
+			@include col (2,4)
 		}
 
 		#nav {
 			@include col (3,3) 
 		}
-		
-
-
-
-	}// end medium breakpoint
-
-
-
-	//large breakpoint =============================================
-	@include breakpoint(large){
-		background-color: #F5FFF5;
 
 		
 

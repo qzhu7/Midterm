@@ -701,19 +701,19 @@ session, .video, .speak, .block, .sch {
   }
   /* line 73, ../scss/pages/_schedule.scss */
   #sch #fourth {
-    width: 75%;
+    width: 25%;
     padding: 0 15px;
     float: left;
   }
   /* line 78, ../scss/pages/_schedule.scss */
   #sch #fifth {
-    width: 25%;
+    width: 75%;
     padding: 0 15px;
     float: left;
   }
   /* line 82, ../scss/pages/_schedule.scss */
   #sch #sixth {
-    width: 50%;
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
@@ -729,11 +729,75 @@ session, .video, .speak, .block, .sch {
     padding: 0 15px;
     float: left;
   }
+  /* line 94, ../scss/pages/_schedule.scss */
+  #sch h4, #sch h5 {
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 38, ../scss/pages/_schedule.scss */
   #sch {
     background-color: #F5FFF5;
+  }
+  /* line 109, ../scss/pages/_schedule.scss */
+  #sch h4, #sch h5 {
+    margin-bottom: 50px;
+  }
+  /* line 113, ../scss/pages/_schedule.scss */
+  #sch p {
+    margin-top: 20px;
+  }
+  /* line 117, ../scss/pages/_schedule.scss */
+  #sch #first {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 122, ../scss/pages/_schedule.scss */
+  #sch #first h2 {
+    font-size: 1.6em;
+  }
+  /* line 127, ../scss/pages/_schedule.scss */
+  #sch #second {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 131, ../scss/pages/_schedule.scss */
+  #sch #third {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 135, ../scss/pages/_schedule.scss */
+  #sch #fourth {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 140, ../scss/pages/_schedule.scss */
+  #sch #fifth {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 144, ../scss/pages/_schedule.scss */
+  #sch #sixth {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 148, ../scss/pages/_schedule.scss */
+  #sch #seventh {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 152, ../scss/pages/_schedule.scss */
+  #sch #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
   }
 }
 
@@ -774,41 +838,41 @@ session, .video, .speak, .block, .sch {
 
 @media only screen and (min-width: 30.0625em) {
   /* line 39, ../scss/pages/_speakers.scss */
-  #speak {
+  #speaker {
     background-color: #F6FFFF;
   }
 }
 @media only screen and (min-width: 45em) {
   /* line 39, ../scss/pages/_speakers.scss */
-  #speak {
+  #speaker {
     background-color: #FFFFE0;
   }
   /* line 60, ../scss/pages/_speakers.scss */
-  #speak #first {
-    width: 66.66667%;
+  #speaker .ant {
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
   /* line 67, ../scss/pages/_speakers.scss */
-  #speak #second {
-    width: 33.33333%;
+  #speaker .bee {
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
   /* line 76, ../scss/pages/_speakers.scss */
-  #speak #third {
-    width: 66.66667%;
+  #speaker .croc {
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 84, ../scss/pages/_speakers.scss */
-  #speak #fourth {
-    width: 33.33333%;
+  /* line 83, ../scss/pages/_speakers.scss */
+  #speaker .dog {
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 89, ../scss/pages/_speakers.scss */
-  #speak #nav {
+  /* line 88, ../scss/pages/_speakers.scss */
+  #speaker #nav {
     width: 100%;
     padding: 0 15px;
     float: left;
@@ -816,35 +880,35 @@ session, .video, .speak, .block, .sch {
 }
 @media only screen and (min-width: 67.5em) {
   /* line 39, ../scss/pages/_speakers.scss */
-  #speak {
+  #speaker {
     background-color: #F5FFF5;
   }
-  /* line 104, ../scss/pages/_speakers.scss */
-  #speak #first {
-    width: 66.66667%;
+  /* line 103, ../scss/pages/_speakers.scss */
+  #speaker .dog {
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 111, ../scss/pages/_speakers.scss */
-  #speak #second {
-    width: 33.33333%;
+  /* line 110, ../scss/pages/_speakers.scss */
+  #speaker .bee {
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 120, ../scss/pages/_speakers.scss */
-  #speak #third {
-    width: 100%;
+  /* line 119, ../scss/pages/_speakers.scss */
+  #speaker .croc {
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 128, ../scss/pages/_speakers.scss */
-  #speak #fourth {
-    width: 100%;
+  /* line 127, ../scss/pages/_speakers.scss */
+  #speaker .dog {
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 133, ../scss/pages/_speakers.scss */
-  #speak #nav {
+  /* line 132, ../scss/pages/_speakers.scss */
+  #speaker #nav {
     width: 100%;
     padding: 0 15px;
     float: left;
