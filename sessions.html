@@ -5,6 +5,17 @@
 	<title>Careers in the Creative Arts: Sessions</title>
 	<link rel="stylesheet" type="text/css" href="css/screen.css">
 <link rel="stylesheet" type="text/css" href="css/print.css">
+
+<!-- equal height colume js -->
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js'></script>
+ <script language="javascript" type="text/javascript" src="js/jquery.eqheight.js"></script> 
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".group").eqHeight(".session");
+});
+</script>
+
+
 </head>
 
 <body id="sess">
@@ -23,6 +34,7 @@
 <!--ant=one,bee=two,croc=three,dog=four-->
 
 <h2>Creative Writing </h2>
+<section class="group">
 <section id="first"> <!--creative writing--> 
 <div class="session ant">
 <h3>  Session I  </h3>
@@ -57,8 +69,8 @@
 
 
 
-
- <h2>Fine Arts </h2> 
+<!-- move h2 to left without changing other h2 -->
+ <h2> <span class="x"> Fine Arts </span> </h2> 
  <section id="second"> <!--fine arts-->
 
 <div class="session ant">
@@ -91,8 +103,8 @@
 </section>
 
 
-
-<h2>Performing Arts</h2> 
+<!-- align h2 -->
+<h2>  Performing Arts  </h2> 
 <section id="third"> <!--perform arts-->
 
 <div class="session ant">
@@ -126,7 +138,7 @@
 
 
 
-<h2> Media Arts </h2> 
+<h2> <span class="y"> Media Arts </span> </h2> 
 <section id="fourth"> <!--media arts-->
 
 <div class="session ant">
@@ -156,6 +168,7 @@
 <p>Film, television, web, Movies, sports, news, action, drama, cartoons, ads, video games, across a variety of media and genres, 2D and 3D graphics are used to tell stories, educate, explain, entertain, inform and more. In this session you will learn more about what kinds of jobs are out there and what you need to do to put yourself in a position to get one of the jobs.
 <p class="presenter"> Speaker&#58;Jody Culkin  </p>
 </div>
+</section>
 </section>
 
 <a name="nav"></a>

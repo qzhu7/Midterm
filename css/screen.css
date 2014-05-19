@@ -1080,45 +1080,65 @@ session, .video, .speak, .block, .sch {
   #sess {
     background-color: #F6FFFF;
   }
+  /* line 51, ../scss/pages/_sessions.scss */
+  #sess p {
+    padding-bottom: 8px;
+  }
 }
 @media only screen and (min-width: 45em) {
   /* line 40, ../scss/pages/_sessions.scss */
   #sess {
     background-color: #FFFFE0;
   }
-  /* line 62, ../scss/pages/_sessions.scss */
-  #sess h2 {
-    text-align: left;
-  }
   /* line 66, ../scss/pages/_sessions.scss */
+  #sess h2 {
+    text-align: center;
+  }
+  /* line 70, ../scss/pages/_sessions.scss */
   #sess #first {
     width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 70, ../scss/pages/_sessions.scss */
+  /* line 74, ../scss/pages/_sessions.scss */
   #sess #second {
-    width: 33.33333%;
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 76, ../scss/pages/_sessions.scss */
+  /* line 78, ../scss/pages/_sessions.scss */
+  #sess .x {
+    padding-right: 400px;
+  }
+  /* line 82, ../scss/pages/_sessions.scss */
+  #sess .y {
+    text-align: right;
+  }
+  /* line 90, ../scss/pages/_sessions.scss */
   #sess #third {
-    width: 33.33333%;
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 80, ../scss/pages/_sessions.scss */
+  /* line 94, ../scss/pages/_sessions.scss */
+  #sess #third {
+    margin-top: -45px;
+  }
+  /* line 100, ../scss/pages/_sessions.scss */
   #sess #fourth {
-    width: 33.33333%;
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 84, ../scss/pages/_sessions.scss */
+  /* line 106, ../scss/pages/_sessions.scss */
   #sess #nav {
     width: 100%;
     padding: 0 15px;
     float: left;
+  }
+  /* line 110, ../scss/pages/_sessions.scss */
+  #sess h3, #sess h4, #sess p {
+    margin-bottom: 10px;
   }
 }
 @media only screen and (min-width: 67.5em) {
@@ -1126,31 +1146,40 @@ session, .video, .speak, .block, .sch {
   #sess {
     background-color: #F5FFF5;
   }
-  /* line 97, ../scss/pages/_sessions.scss */
+  /* line 124, ../scss/pages/_sessions.scss */
+  #sess h2 {
+    text-align: left;
+    padding-left: 30px;
+  }
+  /* line 129, ../scss/pages/_sessions.scss */
   #sess #first {
-    width: 25%;
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 101, ../scss/pages/_sessions.scss */
+  /* line 133, ../scss/pages/_sessions.scss */
   #sess #second {
-    width: 25%;
+    width: 100%;
     padding: 0 15px;
     float: left;
   }
-  /* line 107, ../scss/pages/_sessions.scss */
+  /* line 139, ../scss/pages/_sessions.scss */
   #sess #third {
-    width: 25%;
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 111, ../scss/pages/_sessions.scss */
+  /* line 143, ../scss/pages/_sessions.scss */
+  #sess #third {
+    margin-top: 50px;
+  }
+  /* line 147, ../scss/pages/_sessions.scss */
   #sess #fourth {
-    width: 25%;
+    width: 50%;
     padding: 0 15px;
     float: left;
   }
-  /* line 115, ../scss/pages/_sessions.scss */
+  /* line 151, ../scss/pages/_sessions.scss */
   #sess #nav {
     width: 100%;
     padding: 0 15px;
