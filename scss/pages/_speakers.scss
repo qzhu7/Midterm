@@ -57,6 +57,35 @@
 	@include breakpoint(medium){
 		background-color: #FFFFE0;
 
+		#first {
+			@include col (2,3) 
+			
+			}
+
+			
+      
+      #second {
+			@include col (1,3)
+		}
+
+		
+
+		
+		
+		
+		#third {
+			@include col (2,3) 
+		}
+		
+		
+       
+		
+		
+       #fourth {
+			@include col (1,3)
+
+		}
+
 		
 
 
@@ -68,6 +97,37 @@
 	//large breakpoint =============================================
 	@include breakpoint(large){
 		background-color: #F5FFF5;
+
+		#first {
+			@include col (2,3) 
+			
+			}
+
+			
+      
+      #second {
+			@include col (1,3)
+		}
+
+		
+
+		
+		
+		
+		#third {
+			@include col (3,3) 
+		}
+		
+		
+       
+		
+		
+       #fourth {
+			@include col (3,3)
+
+		}
+
+		
 
 		
 

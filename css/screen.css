@@ -795,11 +795,59 @@ session, .video, .speak, .block, .sch {
   #speak {
     background-color: #FFFFE0;
   }
+  /* line 60, ../scss/pages/_speakers.scss */
+  #speak #first {
+    width: 66.66667%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 67, ../scss/pages/_speakers.scss */
+  #speak #second {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 76, ../scss/pages/_speakers.scss */
+  #speak #third {
+    width: 66.66667%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 84, ../scss/pages/_speakers.scss */
+  #speak #fourth {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 39, ../scss/pages/_speakers.scss */
   #speak {
     background-color: #F5FFF5;
+  }
+  /* line 101, ../scss/pages/_speakers.scss */
+  #speak #first {
+    width: 66.66667%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 108, ../scss/pages/_speakers.scss */
+  #speak #second {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 117, ../scss/pages/_speakers.scss */
+  #speak #third {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 125, ../scss/pages/_speakers.scss */
+  #speak #fourth {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
   }
 }
 
@@ -974,11 +1022,75 @@ session, .video, .speak, .block, .sch {
   #sess {
     background-color: #FFFFE0;
   }
+  /* line 62, ../scss/pages/_sessions.scss */
+  #sess h2 {
+    text-align: left;
+  }
+  /* line 66, ../scss/pages/_sessions.scss */
+  #sess #first {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 70, ../scss/pages/_sessions.scss */
+  #sess #second {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 76, ../scss/pages/_sessions.scss */
+  #sess #third {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 80, ../scss/pages/_sessions.scss */
+  #sess #fourth {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 84, ../scss/pages/_sessions.scss */
+  #sess #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 40, ../scss/pages/_sessions.scss */
   #sess {
     background-color: #F5FFF5;
+  }
+  /* line 97, ../scss/pages/_sessions.scss */
+  #sess #first {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 101, ../scss/pages/_sessions.scss */
+  #sess #second {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 107, ../scss/pages/_sessions.scss */
+  #sess #third {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 111, ../scss/pages/_sessions.scss */
+  #sess #fourth {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 115, ../scss/pages/_sessions.scss */
+  #sess #nav {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
   }
 }
 
@@ -1028,10 +1140,94 @@ session, .video, .speak, .block, .sch {
   #vid {
     background-color: #FFFFE0;
   }
+  /* line 56, ../scss/pages/_video.scss */
+  #vid #first {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 63, ../scss/pages/_video.scss */
+  #vid #second {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 72, ../scss/pages/_video.scss */
+  #vid #third {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 80, ../scss/pages/_video.scss */
+  #vid #fourth {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 85, ../scss/pages/_video.scss */
+  #vid #fifth {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 89, ../scss/pages/_video.scss */
+  #vid #sixth {
+    width: 33.33333%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 96, ../scss/pages/_video.scss */
+  #vid #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
 }
 @media only screen and (min-width: 67.5em) {
   /* line 39, ../scss/pages/_video.scss */
   #vid {
     background-color: #F5FFF5;
+  }
+  /* line 114, ../scss/pages/_video.scss */
+  #vid #first {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 121, ../scss/pages/_video.scss */
+  #vid #second {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 130, ../scss/pages/_video.scss */
+  #vid #third {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 138, ../scss/pages/_video.scss */
+  #vid #fourth {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 143, ../scss/pages/_video.scss */
+  #vid #fifth {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 147, ../scss/pages/_video.scss */
+  #vid #sixth {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+  }
+  /* line 154, ../scss/pages/_video.scss */
+  #vid #nav {
+    width: 100%;
+    padding: 0 15px;
+    float: left;
   }
 }
