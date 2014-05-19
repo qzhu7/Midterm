@@ -1,0 +1,23 @@
+http://www.paulrhayes.com/2009-04/auto-scrolling-parallax-effect-without-javascript/
+
+http://www.paulrhayes.com/2009-06/accordion-using-only-css/
+
+http://dinolatoga.com/2009/09/18/amazing-imag-hover-effects-with-webkit-and-css/
+
+http://www.paulrhayes.com/2009-07/animated-css3-cube-interface-using-3d-transforms/
+
+http://designlovr.com/use-css3-to-create-a-dynamic-stack-of-index-cards/
+
+https://github.com/daneden/animate.css
+
+http://spritely.net/documentation/
+
+http://www.cssbuttongenerator.com/
+
+http://html5maker.com/
+
+http://www.webestools.com/banner-animated-maker-generator-gif-banners-free-online.html
+
+http://www.htmlgoodies.com/primers/html/article.php/3888236
+
+Scheme ID: 3.21TQIU8GrRa
