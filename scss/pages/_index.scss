@@ -69,23 +69,9 @@ body {
 	@include breakpoint(small){
 		background-color: #F6FFFF;
 
-		.croc {
-			margin-bottom:35px;
-		} 
-
-
-		h3 {
-			margin-top:25px;
+		.ant p, .bee p, .croc p,.dog p {
+			margin-bottom:20px;
 		}
-
-		.ant p, .bee p {
-        margin-top:25px;
-		}
-
-		.dog p {
-			margin-top:15px;
-		}
-		
 
 	}//end small
 
